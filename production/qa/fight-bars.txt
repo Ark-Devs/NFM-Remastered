@@ -1,0 +1,63 @@
+fit: R² 0.82, typical error x1.43 damage per clash
+STR+END picks the winner of 96% of 2559 pairings (100% of 1854 clear-cut ones)
+one bar step = x1.27; your Strength bar equal to their Endurance bar -> about 11.4 units (clashes / minutes) to waste them
+  M A S H E E N needs ~4.3 units to waste Cross
+  Cross needs ~14.5 units to waste M A S H E E N
+  Jet Blade needs ~45.7 units to waste The Raven
+  The Raven needs ~54.6 units to waste Jet Blade
+  Jet Blade needs ~58.9 units to waste Vigilante
+  Vigilante needs ~39.4 units to waste Jet Blade
+
+car                       STR  END  total   fights won
+Titan Mk II                7.8   8.4   16.2    574/612
+BT One                     8.5   7.3   15.8    580/612
+M A S H E E N             10.0   5.7   15.7    582/612
+Big Bertha                 7.3   8.4   15.6    580/612
+Ragnarök                   6.3   8.1   14.4    526/612
+Block Buster               6.9   6.9   13.9    529/612
+Dawgzilla                  5.7   7.9   13.6    484/612
+No Mercy                   6.0   6.6   12.6    492/612
+Hot Pursuit                5.9   6.4   12.3    489/612
+EL KING                    5.9   6.3   12.2    438/612
+Get Lost                   4.0   7.9   11.9    425/612
+Katana                     4.9   6.5   11.4    469/612
+Vigilante                  3.3   8.0   11.2    431/612
+Brute Force                5.2   5.7   11.0    409/612
+DR Monstaa                 5.5   5.5   10.9    383/612
+Revon TTR                  4.7   5.9   10.6    379/612
+Cross                      4.6   6.0   10.6    387/612
+Fenrir                     3.1   7.5   10.6    336/612
+Banshee                    3.2   7.1   10.3    336/612
+Ironclad                   3.5   6.4    9.9    322/612
+Hound                      4.2   5.4    9.6    320/612
+Potenza                    1.9   7.7    9.6    279/612
+Jet Blade                  1.0   8.5    9.5    277/612
+Draconian                  0.5   9.1    9.5    240/612
+Sword of Justice           4.7   4.6    9.3    334/612
+Macabre                    3.1   6.2    9.2    283/612
+Rebel                      4.7   4.2    8.9    327/612
+The Raven                  1.9   6.9    8.8    260/612
+Arbalest                   1.2   7.4    8.6    223/612
+Taurus                     2.2   6.3    8.5    278/612
+Quadra Turbo               3.2   5.3    8.5    244/612
+Prancer                    2.9   5.2    8.1    226/612
+Skyline GT-R R34           0.9   7.2    8.1    215/612
+Radical One                2.7   5.0    7.7    204/612
+Pinnacle                   1.4   6.2    7.6    211/612
+Kool Kat                   2.4   4.7    7.2    184/612
+Lead Oxide                 2.7   4.2    6.9    160/612
+Ultimatum                  0.0   6.8    6.8    160/612
+Wow Caninaro               1.8   4.9    6.7    159/612
+High Rider                 2.1   4.1    6.2    141/612
+Drifter X                  1.6   4.0    5.6    127/612
+MAX Revenge                0.9   4.5    5.4    103/612
+Atom                       1.0   4.4    5.3    126/612
+Hakosuka                   0.5   4.0    4.5    75/612
+Nimi                       0.0   4.4    4.4    96/612
+BMW M1                     0.8   2.6    3.4    66/612
+Tornado Shark              0.0   3.2    3.2    45/612
+Mighty Eight               1.9   1.0    3.0    55/612
+La Vita Crab               0.7   1.9    2.6    43/612
+Lancia Rally               0.6   1.2    1.8    37/612
+Formula 7                  1.5   0.0    1.5    14/612
+Liquid Metal Prototype     0.3   0.3    0.7    3/612

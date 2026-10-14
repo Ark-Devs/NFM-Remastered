@@ -1,0 +1,16 @@
+{
+  "name": "nfm-remastered",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "gen": "node tools/j2js.mjs",
+    "dev": "npm run gen && vite",
+    "build": "npm run gen && vite build"
+  },
+  "dependencies": {
+    "fflate": "^0.8.3",
+    "three": "^0.180.0",
+    "vite": "^6.4.4"
+  }
+}

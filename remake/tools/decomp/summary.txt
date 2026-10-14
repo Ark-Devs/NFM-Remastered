@@ -1,0 +1,9 @@
+Summary for ../../Game.jar
+Decompiled with CFR 0.152
+
+
+CarMaker
+----------------------------
+
+run()
+  Unable to fully structure code

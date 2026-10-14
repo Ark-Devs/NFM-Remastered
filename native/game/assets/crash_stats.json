@@ -1,0 +1,210 @@
+{
+ "Tornado Shark": {
+  "strength": 0.004,
+  "endurance": 0.321
+ },
+ "Formula 7": {
+  "strength": 0.15,
+  "endurance": 0
+ },
+ "Drifter X": {
+  "strength": 0.162,
+  "endurance": 0.395
+ },
+ "DR Monstaa": {
+  "strength": 0.547,
+  "endurance": 0.545
+ },
+ "Brute Force": {
+  "strength": 0.522,
+  "endurance": 0.573
+ },
+ "Hakosuka": {
+  "strength": 0.045,
+  "endurance": 0.401
+ },
+ "Liquid Metal Prototype": {
+  "strength": 0.032,
+  "endurance": 0.034
+ },
+ "Ragnarök": {
+  "strength": 0.63,
+  "endurance": 0.811
+ },
+ "Ultimatum": {
+  "strength": 0.001,
+  "endurance": 0.676
+ },
+ "Kool Kat": {
+  "strength": 0.244,
+  "endurance": 0.473
+ },
+ "Radical One": {
+  "strength": 0.272,
+  "endurance": 0.498
+ },
+ "BMW M1": {
+  "strength": 0.078,
+  "endurance": 0.262
+ },
+ "Get Lost": {
+  "strength": 0.402,
+  "endurance": 0.787
+ },
+ "Lancia Rally": {
+  "strength": 0.059,
+  "endurance": 0.118
+ },
+ "Quadra Turbo": {
+  "strength": 0.323,
+  "endurance": 0.527
+ },
+ "Titan Mk II": {
+  "strength": 0.783,
+  "endurance": 0.842
+ },
+ "Wow Caninaro": {
+  "strength": 0.182,
+  "endurance": 0.489
+ },
+ "La Vita Crab": {
+  "strength": 0.068,
+  "endurance": 0.187
+ },
+ "Nimi": {
+  "strength": 0,
+  "endurance": 0.437
+ },
+ "High Rider": {
+  "strength": 0.208,
+  "endurance": 0.409
+ },
+ "Atom": {
+  "strength": 0.097,
+  "endurance": 0.437
+ },
+ "Cross": {
+  "strength": 0.464,
+  "endurance": 0.596
+ },
+ "Hound": {
+  "strength": 0.421,
+  "endurance": 0.539
+ },
+ "No Mercy": {
+  "strength": 0.599,
+  "endurance": 0.66
+ },
+ "Revon TTR": {
+  "strength": 0.471,
+  "endurance": 0.591
+ },
+ "MAX Revenge": {
+  "strength": 0.091,
+  "endurance": 0.449
+ },
+ "Lead Oxide": {
+  "strength": 0.268,
+  "endurance": 0.423
+ },
+ "M A S H E E N": {
+  "strength": 1,
+  "endurance": 0.565
+ },
+ "Block Buster": {
+  "strength": 0.695,
+  "endurance": 0.694
+ },
+ "Fenrir": {
+  "strength": 0.309,
+  "endurance": 0.75
+ },
+ "Katana": {
+  "strength": 0.489,
+  "endurance": 0.648
+ },
+ "Prancer": {
+  "strength": 0.286,
+  "endurance": 0.524
+ },
+ "The Raven": {
+  "strength": 0.191,
+  "endurance": 0.689
+ },
+ "Sword of Justice": {
+  "strength": 0.47,
+  "endurance": 0.458
+ },
+ "EL KING": {
+  "strength": 0.589,
+  "endurance": 0.633
+ },
+ "Mighty Eight": {
+  "strength": 0.193,
+  "endurance": 0.104
+ },
+ "Arbalest": {
+  "strength": 0.12,
+  "endurance": 0.741
+ },
+ "Banshee": {
+  "strength": 0.323,
+  "endurance": 0.708
+ },
+ "Big Bertha": {
+  "strength": 0.727,
+  "endurance": 0.836
+ },
+ "BT One": {
+  "strength": 0.849,
+  "endurance": 0.732
+ },
+ "Dawgzilla": {
+  "strength": 0.566,
+  "endurance": 0.793
+ },
+ "Draconian": {
+  "strength": 0.046,
+  "endurance": 0.908
+ },
+ "Hot Pursuit": {
+  "strength": 0.592,
+  "endurance": 0.642
+ },
+ "Ironclad": {
+  "strength": 0.349,
+  "endurance": 0.642
+ },
+ "Jet Blade": {
+  "strength": 0.104,
+  "endurance": 0.85
+ },
+ "Macabre": {
+  "strength": 0.306,
+  "endurance": 0.617
+ },
+ "Pinnacle": {
+  "strength": 0.141,
+  "endurance": 0.623
+ },
+ "Potenza": {
+  "strength": 0.188,
+  "endurance": 0.768
+ },
+ "Rebel": {
+  "strength": 0.467,
+  "endurance": 0.422
+ },
+ "Vigilante": {
+  "strength": 0.328,
+  "endurance": 0.795
+ },
+ "Skyline GT-R R34": {
+  "strength": 0.089,
+  "endurance": 0.716
+ },
+ "Taurus": {
+  "strength": 0.222,
+  "endurance": 0.633
+ }
+}

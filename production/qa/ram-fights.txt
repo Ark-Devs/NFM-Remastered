@@ -1,0 +1,1326 @@
+Tornado Shark|Formula 7|5|1|579.2|391.7|97.1|34|32
+Tornado Shark|Drifter X|0|6|293.0|514.9|313.5|68|85
+Tornado Shark|DR Monstaa|0|6|102.1|581.3|86.1|24|28
+Tornado Shark|Brute Force|0|6|89.8|576.9|194.4|42|55
+Tornado Shark|Hakosuka|2|4|561.3|559.8|273.8|104|103
+Tornado Shark|Liquid Metal Prototype|6|0|569.4|325.9|111.1|50|44
+Tornado Shark|Ragnarök|0|5|6.8|498.2|369.9|2|31
+Tornado Shark|Ultimatum|0|5|58.9|449.7|707.8|36|138
+Formula 7|Kool Kat|0|6|66.5|591.7|73.6|28|31
+Formula 7|Radical One|0|6|116.9|556.0|82.1|21|21
+Formula 7|BMW M1|0|5|132.5|436.7|441.0|34|40
+Formula 7|Get Lost|0|6|32.0|597.9|49.7|16|22
+Formula 7|Lancia Rally|2|3|20.0|429.7|713.8|18|93
+Formula 7|Quadra Turbo|0|6|47.6|531.5|86.2|20|27
+Formula 7|Titan Mk II|0|6|0.0|565.7|20.3|0|16
+Wow Caninaro|Kool Kat|2|4|344.7|508.3|371.9|66|94
+Wow Caninaro|Radical One|0|5|296.0|507.1|386.9|72|93
+Wow Caninaro|BMW M1|6|0|579.4|239.5|246.8|45|64
+Wow Caninaro|Get Lost|0|6|56.8|587.2|193.8|37|79
+Wow Caninaro|Lancia Rally|6|0|581.5|110.3|79.9|33|28
+Wow Caninaro|Quadra Turbo|1|3|228.7|450.1|802.2|54|77
+Wow Caninaro|Titan Mk II|0|6|0.0|593.3|59.6|0|28
+La Vita Crab|Drifter X|0|4|134.4|354.8|708.8|24|29
+La Vita Crab|DR Monstaa|0|6|119.4|584.0|100.0|31|27
+La Vita Crab|Brute Force|0|6|55.9|588.9|64.2|24|37
+La Vita Crab|Hakosuka|0|6|370.5|573.2|121.2|52|51
+La Vita Crab|Liquid Metal Prototype|5|1|497.8|327.6|140.5|53|47
+La Vita Crab|Ragnarök|0|6|0.0|592.9|58.9|0|27
+La Vita Crab|Ultimatum|0|6|49.5|444.8|319.0|53|73
+Nimi|High Rider|0|5|374.5|518.9|439.8|62|63
+Nimi|Atom|3|3|487.8|385.3|521.0|176|138
+Nimi|Cross|0|6|70.7|522.3|95.9|30|42
+Nimi|Hound|0|6|62.3|594.5|105.2|32|59
+Nimi|No Mercy|0|6|0.8|544.8|60.2|1|31
+Nimi|Revon TTR|0|3|208.4|515.3|1015.6|37|23
+MAX Revenge|Lead Oxide|3|3|451.9|481.8|299.6|86|71
+MAX Revenge|M A S H E E N|0|6|160.8|597.0|143.4|22|24
+MAX Revenge|Block Buster|0|6|8.8|572.4|82.7|2|44
+MAX Revenge|Fenrir|0|6|111.0|570.7|246.3|56|82
+MAX Revenge|Katana|0|6|0.4|520.7|163.2|1|59
+MAX Revenge|Prancer|0|3|166.3|392.0|1074.2|65|71
+MAX Revenge|The Raven|0|5|180.8|525.7|821.0|95|149
+Lead Oxide|High Rider|1|3|412.2|479.8|448.5|66|73
+Lead Oxide|Atom|4|2|551.6|438.1|224.5|75|88
+Lead Oxide|Cross|1|4|172.9|471.7|588.7|80|74
+Lead Oxide|Hound|0|6|304.8|584.2|144.0|53|71
+Lead Oxide|No Mercy|0|6|23.2|587.0|179.3|8|57
+Lead Oxide|Revon TTR|0|5|202.2|547.6|421.3|48|60
+Kool Kat|Drifter X|4|1|406.7|257.1|439.4|59|59
+Kool Kat|DR Monstaa|0|4|214.6|530.7|773.1|48|41
+Kool Kat|Brute Force|0|6|72.8|575.6|103.4|27|41
+Kool Kat|Hakosuka|5|1|573.8|267.8|198.0|80|68
+Kool Kat|Liquid Metal Prototype|6|0|571.3|165.9|121.8|49|36
+Kool Kat|Ragnarök|0|4|22.7|531.0|646.6|9|36
+Kool Kat|Ultimatum|3|3|416.2|387.7|465.8|93|141
+Drifter X|Radical One|0|3|172.8|309.2|1080.6|59|55
+Drifter X|BMW M1|5|1|413.4|306.9|239.8|58|71
+Drifter X|Get Lost|0|5|86.9|526.2|500.6|54|80
+Drifter X|Lancia Rally|6|0|488.4|157.4|146.0|32|28
+Drifter X|Quadra Turbo|0|4|70.0|385.9|780.5|25|48
+Drifter X|Titan Mk II|0|5|0.0|546.7|343.1|0|28
+Sword of Justice|Radical One|3|3|386.7|392.5|164.3|60|40
+Sword of Justice|BMW M1|5|0|555.0|103.2|391.4|35|27
+Sword of Justice|Get Lost|2|3|371.4|386.5|466.6|66|61
+Sword of Justice|Lancia Rally|6|0|580.9|61.8|63.8|31|19
+Sword of Justice|Quadra Turbo|3|3|455.4|422.2|174.0|49|50
+Sword of Justice|Titan Mk II|0|6|0.0|600.0|36.4|0|20
+High Rider|DR Monstaa|0|6|185.2|592.9|130.1|39|50
+High Rider|Brute Force|0|6|181.4|583.5|141.6|42|53
+High Rider|Hakosuka|5|1|567.1|374.5|209.3|89|87
+High Rider|Liquid Metal Prototype|6|0|576.9|227.7|133.0|60|57
+High Rider|Ragnarök|0|6|4.6|584.8|71.4|1|33
+High Rider|Ultimatum|0|6|264.6|515.2|326.0|72|135
+EL KING|Atom|6|0|596.3|97.9|62.0|26|23
+EL KING|Cross|4|1|427.8|319.5|545.1|47|77
+EL KING|Hound|6|0|594.1|78.7|67.9|31|33
+EL KING|No Mercy|3|3|351.5|414.1|174.6|33|79
+EL KING|Revon TTR|4|1|538.6|376.0|424.6|77|78
+Mighty Eight|M A S H E E N|0|6|91.8|600.0|28.4|13|14
+Mighty Eight|Block Buster|0|6|0.0|594.0|38.1|0|19
+Mighty Eight|Fenrir|0|6|48.7|598.5|69.6|30|23
+Mighty Eight|Katana|0|6|10.5|585.1|85.1|3|30
+Mighty Eight|Prancer|0|5|230.5|562.8|374.8|46|43
+Mighty Eight|The Raven|0|6|57.7|592.9|120.2|30|41
+M A S H E E N|Atom|6|0|600.0|125.7|41.4|12|12
+M A S H E E N|Cross|6|0|600.0|118.0|33.5|15|14
+M A S H E E N|Hound|6|0|598.5|124.1|49.1|27|24
+M A S H E E N|No Mercy|6|0|600.0|126.8|42.0|18|22
+M A S H E E N|Revon TTR|6|0|596.7|143.0|118.5|31|34
+Radical One|DR Monstaa|1|4|300.6|489.3|450.6|70|54
+Radical One|Brute Force|1|5|206.8|546.7|155.9|48|68
+Radical One|Hakosuka|3|0|442.9|140.1|1034.6|84|52
+Radical One|Liquid Metal Prototype|6|0|547.9|83.0|132.4|48|28
+Radical One|Ragnarök|0|6|6.7|591.9|100.8|1|37
+Radical One|Ultimatum|2|1|344.9|256.7|1279.8|88|70
+DR Monstaa|BMW M1|6|0|581.2|172.9|172.2|40|46
+DR Monstaa|Get Lost|2|3|447.1|445.8|499.4|50|74
+DR Monstaa|Lancia Rally|6|0|580.9|102.2|58.4|18|16
+DR Monstaa|Quadra Turbo|3|3|514.9|369.1|317.1|52|72
+DR Monstaa|Titan Mk II|0|5|179.9|527.7|419.2|46|54
+Arbalest|BMW M1|2|0|405.0|41.3|1293.9|58|42
+Arbalest|Get Lost|0|1|204.1|314.5|1536.6|102|85
+Arbalest|Lancia Rally|5|0|472.8|32.0|433.2|51|31
+Arbalest|Quadra Turbo|2|1|304.4|373.9|1102.5|80|102
+Arbalest|Titan Mk II|0|6|1.2|581.5|82.2|1|36
+Atom|Brute Force|0|6|98.0|593.6|90.8|29|40
+Atom|Hakosuka|4|0|472.1|436.8|855.5|141|130
+Atom|Liquid Metal Prototype|6|0|527.5|233.3|249.2|84|80
+Atom|Ragnarök|0|5|1.2|490.7|759.8|1|34
+Atom|Ultimatum|0|3|65.4|409.7|1125.7|55|121
+Banshee|Cross|1|4|284.2|491.3|692.0|66|78
+Banshee|Hound|2|3|367.5|354.3|466.5|63|69
+Banshee|No Mercy|1|4|237.6|538.5|547.7|45|81
+Banshee|Revon TTR|2|4|473.0|398.9|312.9|109|77
+Big Bertha|Block Buster|5|0|530.8|52.7|412.2|63|6
+Big Bertha|Fenrir|6|0|590.2|24.0|158.6|84|5
+Big Bertha|Katana|4|0|380.4|148.1|743.0|34|43
+Big Bertha|Prancer|6|0|589.3|18.5|117.1|41|8
+Big Bertha|The Raven|6|0|582.2|29.1|205.2|44|14
+Block Buster|Cross|6|0|597.3|213.2|157.1|38|42
+Block Buster|Hound|6|0|587.1|33.1|64.2|38|5
+Block Buster|No Mercy|4|1|457.6|275.6|520.8|38|61
+Block Buster|Revon TTR|6|0|571.5|141.5|148.8|63|23
+BMW M1|Brute Force|0|5|64.9|561.1|351.7|30|28
+BMW M1|Hakosuka|1|2|347.9|319.0|1037.8|65|43
+BMW M1|Liquid Metal Prototype|3|0|436.3|169.0|979.9|48|36
+BMW M1|Ragnarök|0|6|0.0|576.8|65.6|0|20
+BMW M1|Ultimatum|0|5|7.8|381.4|597.8|10|72
+Brute Force|Get Lost|1|5|300.1|547.8|203.7|60|71
+Brute Force|Lancia Rally|6|0|572.2|57.1|45.8|20|16
+Brute Force|Quadra Turbo|6|0|595.2|145.0|134.8|57|41
+Brute Force|Titan Mk II|0|6|16.3|591.5|35.8|3|23
+BT One|Get Lost|6|0|598.9|54.2|101.6|39|10
+BT One|Lancia Rally|6|0|595.1|0.0|33.4|17|0
+BT One|Quadra Turbo|6|0|546.4|25.4|45.4|27|5
+BT One|Titan Mk II|2|2|423.6|413.1|738.4|60|33
+Cross|Hakosuka|6|0|567.6|83.7|160.9|76|36
+Cross|Liquid Metal Prototype|6|0|575.7|34.2|77.3|35|12
+Cross|Ragnarök|0|6|72.1|578.7|134.9|25|30
+Cross|Ultimatum|5|0|532.0|83.3|574.6|83|37
+Dawgzilla|Hound|5|1|566.7|279.9|209.0|59|74
+Dawgzilla|No Mercy|1|3|358.4|388.5|891.3|32|97
+Dawgzilla|Revon TTR|3|0|485.4|226.3|1004.4|65|69
+Draconian|Fenrir|3|3|371.2|346.9|777.6|225|124
+Draconian|Katana|0|4|105.5|511.0|838.9|34|115
+Draconian|Prancer|2|0|255.1|122.5|1371.9|74|62
+Draconian|The Raven|0|0|236.6|211.4|1792.8|123|208
+Fenrir|Hound|3|2|477.8|326.1|476.7|70|81
+Fenrir|No Mercy|0|6|44.3|567.6|203.4|8|90
+Fenrir|Revon TTR|3|2|452.2|376.8|762.4|115|106
+Get Lost|Hakosuka|6|0|564.3|38.0|131.6|61|36
+Get Lost|Liquid Metal Prototype|6|0|580.1|34.2|66.4|34|25
+Get Lost|Ragnarök|0|5|59.3|533.9|429.6|13|45
+Get Lost|Ultimatum|4|0|510.4|86.5|872.2|89|75
+Hakosuka|Lancia Rally|4|2|512.7|519.1|288.7|53|106
+Hakosuka|Quadra Turbo|0|4|103.9|464.2|823.6|39|75
+Hakosuka|Titan Mk II|0|6|4.1|574.1|67.9|3|29
+Hot Pursuit|Lancia Rally|6|0|560.8|0.0|42.7|25|0
+Hot Pursuit|Quadra Turbo|5|1|546.3|130.9|164.4|46|35
+Hot Pursuit|Titan Mk II|1|5|156.7|559.0|142.7|43|38
+Hound|Liquid Metal Prototype|6|0|553.7|58.9|73.6|30|20
+Hound|Ragnarök|0|6|11.4|583.9|76.4|2|43
+Hound|Ultimatum|5|1|523.5|208.6|311.1|76|95
+Ironclad|No Mercy|0|6|82.0|562.4|142.2|16|63
+Ironclad|Revon TTR|0|4|323.8|447.8|825.3|89|63
+Jet Blade|Katana|0|3|27.7|410.7|1082.5|15|81
+Jet Blade|Prancer|3|0|316.7|119.9|1226.6|81|64
+Jet Blade|The Raven|1|0|286.1|362.7|1714.4|124|198
+Katana|No Mercy|3|3|405.3|372.2|307.3|62|46
+Katana|Revon TTR|4|0|462.7|76.0|745.4|90|11
+Lancia Rally|Liquid Metal Prototype|6|0|572.6|265.3|100.2|49|32
+Lancia Rally|Ragnarök|0|6|0.0|600.0|47.2|0|21
+Lancia Rally|Ultimatum|0|5|21.4|487.6|526.5|27|70
+Liquid Metal Prototype|Quadra Turbo|0|6|26.8|526.3|139.7|15|40
+Liquid Metal Prototype|Titan Mk II|0|6|0.0|600.0|26.1|0|18
+Macabre|Quadra Turbo|2|1|313.3|289.0|1058.1|49|76
+Macabre|Titan Mk II|0|5|28.1|576.9|366.2|14|47
+No Mercy|Ragnarök|2|3|327.5|533.6|693.4|80|44
+No Mercy|Ultimatum|6|0|563.9|5.6|99.8|47|2
+Pinnacle|Revon TTR|0|5|326.2|575.6|575.5|101|73
+Potenza|Prancer|0|2|338.0|367.3|1447.8|94|135
+Potenza|The Raven|2|0|311.0|302.2|1445.0|149|208
+Prancer|Revon TTR|0|4|304.2|459.9|746.4|99|65
+Quadra Turbo|Ragnarök|0|6|73.8|592.2|144.3|35|37
+Quadra Turbo|Ultimatum|2|0|326.7|110.6|1343.6|77|54
+Ragnarök|Titan Mk II|0|3|193.0|390.8|1238.8|37|53
+Rebel|Titan Mk II|0|6|19.5|599.1|59.7|3|30
+Revon TTR|Ultimatum|5|0|439.9|242.4|466.2|45|55
+Titan Mk II|Ultimatum|6|0|600.0|0.0|47.1|28|0
+Tornado Shark|Wow Caninaro|0|6|321.2|562.3|310.6|83|80
+Tornado Shark|Sword of Justice|0|5|60.4|554.4|405.6|23|46
+Tornado Shark|Arbalest|0|6|35.7|442.8|421.9|47|112
+Tornado Shark|BT One|0|6|1.2|592.7|49.6|1|23
+Tornado Shark|Hot Pursuit|0|5|7.5|519.2|357.5|4|33
+Tornado Shark|Macabre|0|6|135.6|534.9|163.2|47|53
+Tornado Shark|Rebel|0|6|0.0|527.1|144.7|0|53
+Tornado Shark|Vigilante|0|6|70.1|589.8|148.0|39|78
+Formula 7|Drifter X|0|5|177.6|535.3|416.7|42|38
+Formula 7|DR Monstaa|0|6|120.4|590.4|52.0|18|20
+Formula 7|Brute Force|0|6|92.5|600.0|32.8|15|17
+Formula 7|Hakosuka|0|5|381.6|558.7|404.3|55|45
+Formula 7|Liquid Metal Prototype|3|0|532.8|490.0|145.8|35|31
+Formula 7|Ragnarök|0|6|0.0|598.3|60.3|0|23
+Formula 7|Ultimatum|0|5|34.6|483.6|492.2|25|60
+Wow Caninaro|Drifter X|2|4|430.7|398.1|331.9|83|99
+Wow Caninaro|DR Monstaa|1|4|267.1|492.6|458.0|42|42
+Wow Caninaro|Brute Force|0|6|184.2|587.9|164.4|47|62
+Wow Caninaro|Hakosuka|6|0|587.2|320.2|255.2|90|73
+Wow Caninaro|Liquid Metal Prototype|6|0|573.0|137.7|137.7|58|39
+Wow Caninaro|Ragnarök|0|5|7.7|555.2|384.4|2|37
+Wow Caninaro|Ultimatum|3|3|363.9|476.1|695.9|105|190
+La Vita Crab|Sword of Justice|0|6|78.7|577.1|86.9|28|45
+La Vita Crab|Arbalest|0|6|39.5|531.9|204.5|34|87
+La Vita Crab|BT One|0|6|0.0|591.3|28.5|0|19
+La Vita Crab|Hot Pursuit|0|6|0.6|600.0|50.8|1|30
+La Vita Crab|Macabre|0|6|118.5|531.3|132.5|40|47
+La Vita Crab|Rebel|0|6|16.3|539.6|64.0|5|29
+La Vita Crab|Vigilante|0|6|85.4|583.3|131.4|37|38
+Nimi|EL KING|0|6|60.6|591.8|48.6|17|17
+Nimi|Banshee|0|6|62.9|579.8|143.0|40|64
+Nimi|Dawgzilla|0|6|100.1|560.8|305.5|46|40
+Nimi|Ironclad|0|5|21.8|551.0|539.2|16|69
+Nimi|Pinnacle|0|6|79.6|424.7|372.8|71|104
+Nimi|Skyline GT-R R34|0|6|125.1|415.0|483.0|109|101
+MAX Revenge|Kool Kat|4|2|405.5|441.9|417.7|110|95
+MAX Revenge|Radical One|2|2|259.1|326.0|1042.1|88|80
+MAX Revenge|BMW M1|3|1|426.3|307.1|774.2|59|66
+MAX Revenge|Get Lost|0|6|32.7|586.2|141.1|36|67
+MAX Revenge|Lancia Rally|5|0|448.1|168.3|478.6|39|37
+MAX Revenge|Quadra Turbo|1|3|206.3|359.6|771.2|54|65
+MAX Revenge|Titan Mk II|0|6|0.0|593.9|64.5|0|34
+Lead Oxide|EL KING|0|6|83.3|588.3|101.4|26|47
+Lead Oxide|Banshee|0|5|149.8|513.7|483.3|41|76
+Lead Oxide|Dawgzilla|0|6|126.1|592.2|197.9|65|68
+Lead Oxide|Ironclad|0|4|100.7|550.8|775.1|36|83
+Lead Oxide|Pinnacle|0|4|154.0|481.6|804.2|63|129
+Lead Oxide|Skyline GT-R R34|0|5|364.8|544.7|526.4|103|125
+Kool Kat|Sword of Justice|0|6|120.9|594.5|100.6|28|58
+Kool Kat|Arbalest|1|4|233.5|413.2|653.5|74|114
+Kool Kat|BT One|0|6|0.0|595.7|47.4|0|26
+Kool Kat|Hot Pursuit|0|6|1.4|590.0|87.2|1|54
+Kool Kat|Macabre|1|4|255.7|466.7|484.4|59|55
+Kool Kat|Rebel|2|3|224.2|441.9|407.4|25|56
+Kool Kat|Vigilante|0|6|139.0|589.4|184.9|57|88
+Drifter X|DR Monstaa|0|5|133.2|542.1|384.2|33|38
+Drifter X|Brute Force|0|6|71.8|577.6|111.2|30|50
+Drifter X|Hakosuka|5|0|495.8|391.5|462.6|68|58
+Drifter X|Liquid Metal Prototype|6|0|488.9|135.9|153.4|51|41
+Drifter X|Ragnarök|0|6|0.0|588.5|75.0|0|41
+Drifter X|Ultimatum|0|4|106.8|341.2|884.3|48|79
+Sword of Justice|DR Monstaa|1|3|302.0|473.1|706.1|45|32
+Sword of Justice|Brute Force|1|5|173.9|485.3|74.6|33|27
+Sword of Justice|Hakosuka|6|0|576.1|103.6|106.0|53|39
+Sword of Justice|Liquid Metal Prototype|6|0|562.9|44.5|47.4|25|17
+Sword of Justice|Ragnarök|0|6|20.7|591.6|60.4|8|18
+Sword of Justice|Ultimatum|5|1|532.7|197.4|272.7|86|59
+High Rider|Arbalest|0|6|128.5|497.4|383.0|59|96
+High Rider|BT One|0|6|0.0|592.5|46.2|0|28
+High Rider|Hot Pursuit|0|5|52.7|499.4|404.8|12|49
+High Rider|Macabre|0|5|217.9|468.3|480.9|53|64
+High Rider|Rebel|0|6|158.5|535.1|177.2|25|71
+High Rider|Vigilante|0|6|117.2|574.1|138.2|45|61
+EL KING|Banshee|5|1|580.4|341.1|235.8|72|86
+EL KING|Dawgzilla|2|4|268.5|573.1|365.9|76|98
+EL KING|Ironclad|5|1|572.7|196.6|187.3|41|62
+EL KING|Pinnacle|6|0|578.7|135.1|181.1|35|48
+EL KING|Skyline GT-R R34|6|0|560.9|144.8|166.8|59|64
+Mighty Eight|Radical One|0|6|148.8|539.1|166.9|44|41
+Mighty Eight|BMW M1|1|1|406.7|355.4|971.8|44|40
+Mighty Eight|Get Lost|0|6|24.2|580.6|61.2|16|28
+Mighty Eight|Lancia Rally|5|1|516.5|380.8|273.2|34|40
+Mighty Eight|Quadra Turbo|0|6|44.4|485.2|90.2|18|24
+Mighty Eight|Titan Mk II|0|6|0.0|600.0|23.9|0|17
+M A S H E E N|Banshee|6|0|595.6|160.6|62.5|34|28
+M A S H E E N|Dawgzilla|6|0|581.5|197.7|175.8|54|54
+M A S H E E N|Ironclad|6|0|599.4|95.6|24.5|12|12
+M A S H E E N|Pinnacle|6|0|600.0|119.3|47.6|18|17
+M A S H E E N|Skyline GT-R R34|6|0|599.6|145.4|74.1|33|28
+Radical One|Arbalest|0|1|112.4|151.4|1546.8|42|40
+Radical One|BT One|0|6|0.0|589.7|49.3|0|26
+Radical One|Hot Pursuit|0|6|92.2|586.4|183.3|19|54
+Radical One|Macabre|1|3|297.5|399.2|1024.6|111|100
+Radical One|Rebel|0|6|107.1|530.5|296.1|15|81
+Radical One|Vigilante|0|6|179.1|565.7|476.9|81|97
+DR Monstaa|Brute Force|1|3|355.4|450.6|703.9|42|52
+DR Monstaa|Hakosuka|5|0|525.3|174.3|466.8|49|40
+DR Monstaa|Liquid Metal Prototype|6|0|554.2|56.0|46.0|21|19
+DR Monstaa|Ragnarök|0|6|130.9|590.1|116.8|37|40
+DR Monstaa|Ultimatum|5|0|530.2|196.3|768.8|64|73
+Arbalest|Brute Force|0|6|232.4|598.3|182.7|67|72
+Arbalest|Hakosuka|4|0|473.2|61.5|950.5|133|57
+Arbalest|Liquid Metal Prototype|6|0|530.9|25.5|169.6|57|27
+Arbalest|Ragnarök|0|6|19.5|588.6|136.8|12|46
+Arbalest|Ultimatum|0|0|138.6|68.3|1792.8|52|48
+Atom|BT One|0|6|3.8|600.0|29.4|1|21
+Atom|Hot Pursuit|0|5|25.6|548.6|340.4|12|36
+Atom|Macabre|0|3|172.3|431.8|969.3|49|47
+Atom|Rebel|0|5|29.0|472.3|382.7|17|44
+Atom|Vigilante|0|6|117.6|593.9|134.6|49|63
+Banshee|Dawgzilla|0|2|145.1|463.8|1261.9|57|51
+Banshee|Ironclad|2|1|283.6|369.1|1251.8|93|80
+Banshee|Pinnacle|5|0|578.3|227.6|684.6|101|108
+Banshee|Skyline GT-R R34|4|0|488.8|249.7|871.1|144|124
+Big Bertha|BMW M1|6|0|596.1|9.7|73.1|27|8
+Big Bertha|Get Lost|6|0|598.3|39.5|128.4|58|9
+Big Bertha|Lancia Rally|6|0|578.7|0.2|33.8|17|1
+Big Bertha|Quadra Turbo|6|0|580.7|8.4|72.6|40|3
+Big Bertha|Titan Mk II|3|2|524.3|358.3|548.4|89|36
+Block Buster|Dawgzilla|0|2|410.5|391.8|1268.0|88|57
+Block Buster|Ironclad|5|0|547.1|24.5|379.2|42|3
+Block Buster|Pinnacle|6|0|596.4|20.1|89.4|42|11
+Block Buster|Skyline GT-R R34|6|0|577.3|44.4|152.0|57|20
+BMW M1|BT One|0|6|0.0|600.0|31.8|0|19
+BMW M1|Hot Pursuit|0|6|0.0|598.4|47.1|0|27
+BMW M1|Macabre|0|6|187.4|565.1|107.1|39|35
+BMW M1|Rebel|0|6|2.2|531.3|84.7|1|29
+BMW M1|Vigilante|0|6|122.9|588.8|115.1|37|39
+Brute Force|Hakosuka|6|0|578.5|65.5|91.4|44|28
+Brute Force|Liquid Metal Prototype|6|0|596.8|45.5|50.7|22|15
+Brute Force|Ragnarök|2|4|270.7|511.8|190.7|56|39
+Brute Force|Ultimatum|6|0|586.9|154.2|215.2|74|56
+BT One|Hakosuka|6|0|584.9|0.0|68.7|28|0
+BT One|Liquid Metal Prototype|6|0|587.4|0.0|18.2|16|0
+BT One|Ragnarök|6|0|598.2|15.7|134.7|70|3
+BT One|Ultimatum|6|0|592.4|1.3|49.7|29|3
+Cross|Hot Pursuit|1|5|213.2|567.2|156.7|30|48
+Cross|Macabre|3|0|408.3|206.8|1095.8|85|62
+Cross|Rebel|4|1|506.6|177.4|496.2|53|36
+Cross|Vigilante|0|4|289.7|456.1|778.4|73|78
+Dawgzilla|Ironclad|5|0|577.1|175.1|432.7|48|67
+Dawgzilla|Pinnacle|4|0|503.6|181.5|807.3|55|98
+Dawgzilla|Skyline GT-R R34|3|0|498.0|159.2|1052.3|60|77
+Draconian|Get Lost|0|1|242.2|297.2|1568.4|161|107
+Draconian|Lancia Rally|4|0|403.1|12.3|758.8|57|24
+Draconian|Quadra Turbo|0|0|134.6|163.4|1792.8|54|87
+Draconian|Titan Mk II|0|6|3.0|598.7|149.1|6|53
+Fenrir|Ironclad|1|1|193.3|269.9|1288.6|40|75
+Fenrir|Pinnacle|2|1|389.3|340.8|1243.5|85|189
+Fenrir|Skyline GT-R R34|5|0|562.1|174.5|653.9|118|130
+Get Lost|Hot Pursuit|2|4|445.1|539.6|272.2|76|81
+Get Lost|Macabre|5|0|553.0|174.9|514.6|119|75
+Get Lost|Rebel|2|2|399.5|274.8|762.3|45|61
+Get Lost|Vigilante|3|2|412.8|398.0|575.4|127|104
+Hakosuka|Liquid Metal Prototype|6|0|559.2|265.6|154.3|53|48
+Hakosuka|Ragnarök|0|6|0.0|591.7|88.0|0|41
+Hakosuka|Ultimatum|0|4|68.9|432.1|819.4|37|100
+Hot Pursuit|Liquid Metal Prototype|6|0|576.3|0.3|38.8|24|1
+Hot Pursuit|Ragnarök|1|4|216.7|431.4|453.8|48|26
+Hot Pursuit|Ultimatum|6|0|589.3|4.8|113.7|51|2
+Hound|Macabre|2|3|469.2|459.5|487.6|85|84
+Hound|Rebel|1|4|126.7|429.1|539.7|11|63
+Hound|Vigilante|2|4|360.5|531.2|413.3|79|75
+Ironclad|Pinnacle|2|1|412.7|224.3|1321.2|97|122
+Ironclad|Skyline GT-R R34|3|0|351.1|130.6|1373.4|107|64
+Jet Blade|Lancia Rally|6|0|551.0|30.1|164.2|48|35
+Jet Blade|Quadra Turbo|3|0|317.6|149.4|1107.0|82|64
+Jet Blade|Titan Mk II|0|6|4.1|595.2|107.4|6|49
+Katana|Pinnacle|6|0|559.8|42.4|180.5|67|16
+Katana|Skyline GT-R R34|6|0|509.3|6.8|203.2|78|1
+Lancia Rally|Macabre|0|6|109.9|536.6|93.5|24|26
+Lancia Rally|Rebel|0|6|0.0|565.6|55.0|0|22
+Lancia Rally|Vigilante|0|6|105.1|567.0|148.2|31|38
+Liquid Metal Prototype|Ragnarök|0|6|0.0|598.3|27.0|0|16
+Liquid Metal Prototype|Ultimatum|0|6|27.1|542.7|204.4|25|80
+Macabre|Ragnarök|0|5|11.9|512.6|451.2|3|48
+Macabre|Ultimatum|2|0|374.0|273.6|1359.1|82|95
+No Mercy|Rebel|6|0|561.9|162.1|223.0|38|31
+No Mercy|Vigilante|5|1|532.4|354.2|352.3|100|81
+Pinnacle|Skyline GT-R R34|1|1|229.0|151.4|1483.9|110|67
+Potenza|Quadra Turbo|1|0|227.2|141.6|1567.4|40|44
+Potenza|Titan Mk II|0|6|2.3|583.3|85.7|1|45
+Prancer|Skyline GT-R R34|3|3|436.2|379.1|557.6|125|99
+Quadra Turbo|Rebel|2|3|341.0|307.7|479.4|44|40
+Quadra Turbo|Vigilante|1|4|257.9|509.7|597.6|98|84
+Ragnarök|Ultimatum|5|0|580.4|4.1|399.7|41|2
+Rebel|Ultimatum|4|0|422.9|100.5|851.0|43|35
+Revon TTR|Vigilante|1|4|292.5|526.8|603.6|111|151
+Titan Mk II|Vigilante|6|0|599.7|32.7|97.8|39|9
+Tornado Shark|La Vita Crab|4|2|512.8|441.8|231.1|57|64
+Tornado Shark|High Rider|2|3|427.4|570.5|190.5|71|74
+Tornado Shark|Atom|0|6|342.7|487.3|354.1|103|115
+Tornado Shark|Cross|0|6|85.4|536.2|136.4|31|51
+Tornado Shark|Hound|0|6|62.5|590.5|82.8|30|44
+Tornado Shark|No Mercy|0|6|0.0|573.0|74.5|0|35
+Tornado Shark|Revon TTR|0|6|147.5|577.1|227.2|59|65
+Formula 7|Wow Caninaro|0|6|158.7|592.1|62.2|15|23
+Formula 7|Sword of Justice|0|6|137.2|577.3|52.9|23|25
+Formula 7|Arbalest|0|5|43.4|468.5|478.0|26|39
+Formula 7|BT One|0|6|0.0|582.1|26.0|0|17
+Formula 7|Hot Pursuit|0|6|0.0|549.9|32.4|0|17
+Formula 7|Macabre|0|6|136.4|579.7|51.9|12|12
+Formula 7|Rebel|0|6|0.0|520.5|50.6|0|20
+Formula 7|Vigilante|0|6|85.8|589.4|44.9|16|17
+Wow Caninaro|Sword of Justice|0|4|113.7|463.6|694.0|37|70
+Wow Caninaro|Arbalest|0|4|139.2|479.3|965.7|75|136
+Wow Caninaro|BT One|0|6|0.0|580.7|60.5|0|27
+Wow Caninaro|Hot Pursuit|0|6|14.4|555.3|135.8|7|63
+Wow Caninaro|Macabre|0|5|263.0|503.0|611.3|88|87
+Wow Caninaro|Rebel|0|6|31.6|499.3|148.8|2|49
+Wow Caninaro|Vigilante|0|6|140.4|588.3|245.5|76|112
+La Vita Crab|High Rider|2|3|263.6|410.9|467.9|39|32
+La Vita Crab|Atom|1|4|276.2|461.8|536.7|85|82
+La Vita Crab|Cross|0|6|45.4|552.4|75.4|21|39
+La Vita Crab|Hound|0|6|71.0|567.7|103.5|23|30
+La Vita Crab|No Mercy|0|6|1.1|597.8|51.6|1|27
+La Vita Crab|Revon TTR|0|6|127.8|591.9|78.8|24|25
+Nimi|MAX Revenge|3|3|427.7|362.7|580.8|117|87
+Nimi|Mighty Eight|5|0|505.1|344.9|489.8|66|68
+Nimi|Big Bertha|0|6|0.0|597.4|42.9|0|27
+Nimi|Draconian|0|5|35.8|423.8|705.6|77|109
+Nimi|Jet Blade|0|5|31.8|419.8|666.6|60|102
+Nimi|Potenza|0|6|62.2|472.6|516.9|42|85
+MAX Revenge|Drifter X|3|2|355.3|328.8|532.8|57|64
+MAX Revenge|DR Monstaa|0|5|164.3|506.0|443.4|39|47
+MAX Revenge|Brute Force|0|6|89.9|593.8|98.1|36|56
+MAX Revenge|Hakosuka|3|1|454.1|360.5|681.4|99|91
+MAX Revenge|Liquid Metal Prototype|5|0|409.5|111.6|415.2|42|29
+MAX Revenge|Ragnarök|0|6|6.5|592.8|96.2|6|40
+MAX Revenge|Ultimatum|1|2|218.1|311.3|1438.4|92|127
+Lead Oxide|Mighty Eight|6|0|587.3|423.7|113.8|43|53
+Lead Oxide|Big Bertha|0|6|14.0|586.4|111.4|5|50
+Lead Oxide|Draconian|0|5|106.0|506.2|591.0|60|103
+Lead Oxide|Jet Blade|0|4|141.3|492.4|782.0|79|131
+Lead Oxide|Potenza|0|6|169.1|530.3|263.6|65|97
+Kool Kat|High Rider|4|0|485.0|160.8|711.9|50|39
+Kool Kat|Atom|5|0|479.7|229.0|594.4|104|114
+Kool Kat|Cross|1|4|175.7|474.0|446.7|36|63
+Kool Kat|Hound|1|4|175.0|496.0|421.8|41|60
+Kool Kat|No Mercy|0|6|2.1|571.0|71.2|1|47
+Kool Kat|Revon TTR|1|5|321.8|529.7|207.2|84|75
+Drifter X|Sword of Justice|0|5|193.4|519.6|426.5|55|62
+Drifter X|Arbalest|0|2|64.7|331.1|1272.4|43|64
+Drifter X|BT One|0|6|0.0|591.1|46.2|0|26
+Drifter X|Hot Pursuit|0|6|0.0|580.3|73.4|0|37
+Drifter X|Macabre|0|5|188.9|457.7|465.0|63|66
+Drifter X|Rebel|0|5|59.8|497.5|415.8|8|53
+Drifter X|Vigilante|0|5|97.3|524.9|414.2|53|71
+Sword of Justice|Arbalest|1|4|338.3|390.0|658.2|81|86
+Sword of Justice|BT One|0|6|0.0|600.0|33.6|0|20
+Sword of Justice|Hot Pursuit|0|6|271.7|596.6|117.0|26|42
+Sword of Justice|Macabre|2|3|407.2|422.0|479.7|85|69
+Sword of Justice|Rebel|2|3|356.4|476.7|450.1|40|47
+Sword of Justice|Vigilante|1|5|165.6|524.9|110.0|42|51
+High Rider|Atom|1|5|391.6|467.0|381.2|107|132
+High Rider|Cross|0|6|76.1|516.6|165.4|25|64
+High Rider|Hound|2|4|233.2|574.1|145.5|51|71
+High Rider|No Mercy|0|6|21.0|565.7|80.0|7|42
+High Rider|Revon TTR|0|6|201.9|585.8|136.2|45|47
+EL KING|Mighty Eight|6|0|594.3|76.4|62.5|21|24
+EL KING|Big Bertha|0|6|81.6|598.6|105.2|8|47
+EL KING|Draconian|2|0|378.4|204.5|1381.8|55|88
+EL KING|Jet Blade|6|0|592.0|258.6|328.6|76|111
+EL KING|Potenza|5|0|573.7|183.0|487.2|72|69
+Mighty Eight|DR Monstaa|0|6|114.9|571.2|74.1|28|24
+Mighty Eight|Brute Force|0|6|120.2|576.3|69.4|29|32
+Mighty Eight|Hakosuka|0|6|397.5|562.4|125.6|51|49
+Mighty Eight|Liquid Metal Prototype|4|1|533.4|373.6|380.2|44|39
+Mighty Eight|Ragnarök|0|6|8.5|589.9|43.3|2|20
+Mighty Eight|Ultimatum|0|6|79.2|510.2|223.3|49|61
+M A S H E E N|Big Bertha|5|1|546.8|263.6|452.9|51|86
+M A S H E E N|Draconian|5|0|571.7|234.9|393.6|40|40
+M A S H E E N|Jet Blade|6|0|599.7|207.1|57.9|27|27
+M A S H E E N|Potenza|6|0|595.3|186.5|53.3|28|29
+Radical One|Atom|4|0|381.2|112.7|753.3|53|29
+Radical One|Cross|1|1|202.1|328.4|1384.0|58|49
+Radical One|Hound|2|3|331.5|477.0|533.0|67|63
+Radical One|No Mercy|0|6|46.1|568.1|120.9|8|52
+Radical One|Revon TTR|1|4|332.4|502.4|773.1|125|98
+DR Monstaa|Arbalest|5|1|543.8|422.0|546.6|103|131
+DR Monstaa|BT One|0|5|9.7|570.8|365.4|4|34
+DR Monstaa|Hot Pursuit|0|6|222.9|532.5|228.6|16|67
+DR Monstaa|Macabre|2|3|502.7|488.0|657.6|103|101
+DR Monstaa|Rebel|4|2|548.1|325.4|195.6|45|67
+DR Monstaa|Vigilante|1|5|410.3|542.5|442.9|59|110
+Arbalest|BT One|0|6|0.0|595.4|78.0|0|43
+Arbalest|Hot Pursuit|0|6|89.4|578.3|489.2|37|67
+Arbalest|Macabre|2|0|234.1|109.9|1438.7|103|66
+Arbalest|Rebel|0|4|138.3|349.8|782.7|25|55
+Arbalest|Vigilante|0|5|237.9|530.8|625.2|116|132
+Atom|Cross|0|6|63.8|564.2|120.4|26|42
+Atom|Hound|0|5|126.0|502.5|389.1|40|50
+Atom|No Mercy|0|5|4.7|513.8|364.0|2|25
+Atom|Revon TTR|0|5|188.7|507.2|476.3|52|64
+Banshee|Big Bertha|0|6|10.2|592.1|82.7|2|43
+Banshee|Draconian|2|2|418.7|377.9|1246.1|171|263
+Banshee|Jet Blade|2|2|345.5|379.6|1400.0|179|296
+Banshee|Potenza|4|2|527.7|387.9|595.1|200|185
+Big Bertha|Brute Force|6|0|598.7|26.3|76.4|41|6
+Big Bertha|Hakosuka|6|0|593.7|0.0|73.6|37|0
+Big Bertha|Liquid Metal Prototype|6|0|577.9|1.3|31.6|21|1
+Big Bertha|Ragnarök|5|1|501.9|287.2|323.8|84|34
+Big Bertha|Ultimatum|6|0|588.7|2.9|172.4|38|6
+Block Buster|Draconian|4|0|485.7|95.0|753.5|70|38
+Block Buster|Jet Blade|6|0|583.1|29.5|267.0|69|23
+Block Buster|Potenza|6|0|581.8|63.6|174.7|72|14
+BMW M1|Cross|0|5|36.9|518.6|353.3|31|31
+BMW M1|Hound|0|6|131.7|575.7|147.6|55|46
+BMW M1|No Mercy|0|6|0.9|524.0|42.2|1|23
+BMW M1|Revon TTR|0|6|151.6|581.8|110.5|24|27
+Brute Force|BT One|0|6|30.0|600.0|50.8|5|30
+Brute Force|Hot Pursuit|0|6|235.8|592.0|126.8|24|48
+Brute Force|Macabre|5|0|504.2|240.1|446.3|80|59
+Brute Force|Rebel|6|0|594.0|223.1|129.9|52|40
+Brute Force|Vigilante|4|2|431.3|443.4|342.3|59|73
+BT One|Hot Pursuit|6|0|599.1|18.9|74.2|34|1
+BT One|Macabre|6|0|591.5|25.9|101.3|50|8
+BT One|Rebel|6|0|593.0|26.9|58.5|26|3
+BT One|Vigilante|6|0|588.9|61.9|102.5|43|12
+Cross|Hound|3|3|419.1|432.2|209.2|74|59
+Cross|No Mercy|0|6|111.1|553.4|163.2|23|51
+Cross|Revon TTR|2|3|419.6|374.9|774.1|87|61
+Dawgzilla|Draconian|3|0|456.9|222.2|1045.1|101|141
+Dawgzilla|Jet Blade|3|0|459.4|244.9|1207.4|77|115
+Dawgzilla|Potenza|3|0|484.4|247.9|1100.4|79|105
+Draconian|Hakosuka|4|0|448.5|25.7|987.9|126|43
+Draconian|Liquid Metal Prototype|6|0|468.0|14.3|211.9|53|25
+Draconian|Ragnarök|0|6|39.6|597.8|220.6|27|64
+Draconian|Ultimatum|0|0|279.6|97.1|1792.8|102|121
+Fenrir|Jet Blade|2|2|341.8|386.9|1183.5|123|230
+Fenrir|Potenza|3|2|457.9|381.0|762.1|140|178
+Get Lost|Hound|5|1|577.0|178.2|181.4|80|46
+Get Lost|No Mercy|2|1|258.8|344.2|1025.7|44|52
+Get Lost|Revon TTR|2|1|513.9|408.8|1080.6|129|82
+Hakosuka|Hot Pursuit|0|6|0.6|574.0|106.2|1|49
+Hakosuka|Macabre|0|6|229.0|571.1|232.3|65|79
+Hakosuka|Rebel|0|6|26.4|556.6|163.4|4|55
+Hakosuka|Vigilante|0|6|108.7|580.9|149.0|52|68
+Hot Pursuit|Macabre|3|0|501.2|201.1|943.2|113|75
+Hot Pursuit|Rebel|2|3|411.1|370.9|524.1|36|60
+Hot Pursuit|Vigilante|4|2|458.0|318.6|228.2|82|69
+Hound|No Mercy|0|6|95.2|552.6|107.5|11|57
+Hound|Revon TTR|1|4|364.7|472.9|500.9|72|65
+Ironclad|Jet Blade|1|1|274.1|236.8|1590.9|121|129
+Ironclad|Potenza|1|1|313.3|238.4|1537.4|111|134
+Jet Blade|Liquid Metal Prototype|6|0|491.2|27.2|169.9|49|32
+Jet Blade|Ragnarök|0|6|47.7|594.7|245.1|29|69
+Jet Blade|Ultimatum|2|0|254.7|49.0|1532.3|99|75
+Katana|Potenza|5|0|499.8|56.9|598.6|87|20
+Lancia Rally|No Mercy|0|6|0.0|548.4|50.5|0|20
+Lancia Rally|Revon TTR|0|6|128.2|587.4|40.9|12|15
+Liquid Metal Prototype|Macabre|0|6|107.6|541.3|114.5|26|31
+Liquid Metal Prototype|Rebel|0|5|11.7|507.3|362.6|2|30
+Liquid Metal Prototype|Vigilante|0|6|77.5|596.0|71.1|27|40
+Macabre|Rebel|1|4|184.1|475.4|731.5|20|109
+Macabre|Vigilante|1|4|302.8|542.5|880.5|160|188
+No Mercy|Revon TTR|5|1|549.8|195.5|195.4|78|29
+Pinnacle|Potenza|1|0|180.7|268.5|1763.4|118|122
+Potenza|Ragnarök|0|6|39.7|582.3|150.9|20|50
+Potenza|Ultimatum|0|0|198.3|77.7|1792.8|83|50
+Quadra Turbo|Revon TTR|1|4|409.5|516.6|651.8|124|66
+Ragnarök|Rebel|6|0|586.6|16.2|107.7|31|13
+Ragnarök|Vigilante|5|1|588.1|204.2|247.6|52|73
+Rebel|Vigilante|0|6|208.8|589.4|212.5|68|65
+Ultimatum|Vigilante|0|4|227.4|539.3|878.7|127|125
+Tornado Shark|Nimi|0|5|300.9|499.8|487.4|64|85
+Tornado Shark|EL KING|0|6|50.7|571.9|56.9|24|33
+Tornado Shark|Banshee|0|6|69.8|585.1|125.2|36|48
+Tornado Shark|Dawgzilla|0|5|69.9|533.0|370.0|26|27
+Tornado Shark|Ironclad|0|6|43.3|566.0|319.0|29|70
+Tornado Shark|Pinnacle|0|4|44.4|435.0|809.4|43|90
+Tornado Shark|Skyline GT-R R34|0|6|144.2|527.7|312.0|78|111
+Formula 7|La Vita Crab|3|3|365.8|497.3|176.0|53|48
+Formula 7|High Rider|0|6|324.4|579.3|59.3|28|25
+Formula 7|Atom|0|6|300.9|567.1|142.0|56|62
+Formula 7|Cross|0|6|43.7|547.5|51.9|13|17
+Formula 7|Hound|0|6|79.2|566.9|47.8|23|26
+Formula 7|No Mercy|0|6|0.0|527.1|26.4|0|14
+Formula 7|Revon TTR|0|6|165.4|595.8|59.4|11|15
+Wow Caninaro|La Vita Crab|5|1|518.7|255.6|237.4|55|71
+Wow Caninaro|High Rider|4|1|536.7|471.3|281.4|101|95
+Wow Caninaro|Atom|3|3|529.1|420.0|415.4|151|148
+Wow Caninaro|Cross|0|6|89.9|554.2|211.2|30|75
+Wow Caninaro|Hound|1|5|251.4|570.8|187.2|61|91
+Wow Caninaro|No Mercy|0|6|18.9|568.3|101.8|4|54
+Wow Caninaro|Revon TTR|0|6|197.2|549.4|156.1|40|50
+La Vita Crab|Nimi|3|2|246.1|445.1|551.5|61|78
+La Vita Crab|EL KING|0|6|64.3|586.1|42.7|17|17
+La Vita Crab|Banshee|0|6|48.8|569.2|80.9|24|29
+La Vita Crab|Dawgzilla|0|6|50.7|588.2|56.8|22|30
+La Vita Crab|Ironclad|0|5|22.1|530.6|359.6|16|28
+La Vita Crab|Pinnacle|0|6|58.0|489.8|155.8|37|64
+La Vita Crab|Skyline GT-R R34|0|6|88.2|559.7|172.0|50|64
+Nimi|Lead Oxide|1|3|467.4|488.5|485.8|74|53
+Nimi|M A S H E E N|0|6|121.6|600.0|19.0|9|9
+Nimi|Block Buster|0|6|5.2|590.5|59.6|5|26
+Nimi|Fenrir|0|5|45.5|532.7|430.8|41|55
+Nimi|Katana|0|6|0.0|507.6|131.6|0|45
+Nimi|Prancer|0|6|115.7|545.6|359.6|79|81
+Nimi|The Raven|0|4|9.4|558.6|750.8|14|107
+MAX Revenge|Sword of Justice|0|6|156.7|590.0|157.2|54|79
+MAX Revenge|Arbalest|0|2|41.5|289.8|1312.0|26|55
+MAX Revenge|BT One|0|6|0.0|584.0|46.5|0|24
+MAX Revenge|Hot Pursuit|0|6|4.0|571.3|103.4|1|51
+MAX Revenge|Macabre|0|2|115.5|318.1|1240.4|41|54
+MAX Revenge|Rebel|0|6|34.6|522.5|194.1|8|58
+MAX Revenge|Vigilante|0|6|122.8|572.2|248.6|65|87
+Lead Oxide|M A S H E E N|0|6|156.4|596.3|144.4|19|24
+Lead Oxide|Block Buster|0|6|5.2|594.4|89.0|1|42
+Lead Oxide|Fenrir|1|5|257.2|579.4|267.9|90|103
+Lead Oxide|Katana|0|5|28.8|553.5|397.7|4|64
+Lead Oxide|Prancer|0|6|400.9|547.2|206.5|56|66
+Lead Oxide|The Raven|0|6|144.5|572.1|238.8|34|99
+Kool Kat|EL KING|0|6|45.9|581.0|98.2|25|38
+Kool Kat|Banshee|1|5|255.6|499.7|249.0|83|71
+Kool Kat|Dawgzilla|1|5|161.1|562.4|246.5|72|52
+Kool Kat|Ironclad|1|3|159.4|402.2|747.0|45|42
+Kool Kat|Pinnacle|2|3|274.1|431.1|647.8|75|122
+Kool Kat|Skyline GT-R R34|3|3|443.6|418.8|300.5|102|121
+Drifter X|High Rider|3|3|383.7|457.6|259.9|91|74
+Drifter X|Atom|3|1|401.2|340.1|792.0|88|83
+Drifter X|Cross|0|6|52.8|538.6|122.0|27|52
+Drifter X|Hound|1|5|163.0|518.8|138.4|48|65
+Drifter X|No Mercy|0|6|0.0|542.1|63.7|0|39
+Drifter X|Revon TTR|0|6|244.3|570.0|326.9|69|56
+Sword of Justice|High Rider|6|0|561.9|195.4|151.2|61|31
+Sword of Justice|Atom|6|0|554.6|176.7|150.4|60|36
+Sword of Justice|Cross|0|5|185.1|496.6|388.7|35|42
+Sword of Justice|Hound|2|4|352.0|429.0|156.7|69|41
+Sword of Justice|No Mercy|0|6|34.0|600.0|57.3|4|33
+Sword of Justice|Revon TTR|2|4|330.6|434.4|145.4|59|39
+High Rider|EL KING|0|6|77.8|584.1|90.0|29|42
+High Rider|Banshee|0|6|95.4|561.5|168.2|48|72
+High Rider|Dawgzilla|0|5|117.7|579.9|521.5|47|58
+High Rider|Ironclad|1|5|146.9|579.8|255.0|40|79
+High Rider|Pinnacle|0|6|144.2|486.1|381.4|56|119
+High Rider|Skyline GT-R R34|0|6|309.9|541.6|304.3|86|112
+EL KING|M A S H E E N|0|4|82.9|462.4|629.2|26|30
+EL KING|Block Buster|1|5|219.2|556.6|205.4|20|66
+EL KING|Fenrir|4|1|473.2|244.7|643.1|82|59
+EL KING|Katana|3|2|332.5|306.6|581.2|34|76
+EL KING|Prancer|5|0|535.9|95.6|383.3|38|37
+EL KING|The Raven|6|0|590.7|184.5|127.0|43|46
+Mighty Eight|Arbalest|0|5|54.8|518.5|411.8|34|40
+Mighty Eight|BT One|0|6|0.0|591.7|22.9|0|13
+Mighty Eight|Hot Pursuit|0|6|6.7|598.4|49.9|2|22
+Mighty Eight|Macabre|0|6|148.6|560.0|80.6|23|22
+Mighty Eight|Rebel|0|6|6.5|542.4|62.9|1|26
+Mighty Eight|Vigilante|0|6|80.9|571.3|75.6|23|26
+M A S H E E N|Block Buster|6|0|596.3|160.1|71.2|26|27
+M A S H E E N|Fenrir|6|0|597.9|209.4|83.1|43|37
+M A S H E E N|Katana|6|0|595.0|156.1|125.4|36|30
+M A S H E E N|Prancer|6|0|597.9|157.6|50.2|22|19
+M A S H E E N|The Raven|6|0|599.9|146.7|43.3|15|15
+Radical One|Banshee|0|3|216.5|368.8|1002.0|75|65
+Radical One|Dawgzilla|0|5|196.4|546.8|653.3|82|60
+Radical One|Ironclad|1|4|228.7|443.4|675.9|85|97
+Radical One|Pinnacle|0|1|161.4|275.7|1641.5|61|90
+Radical One|Skyline GT-R R34|1|2|270.7|313.8|1267.3|118|101
+DR Monstaa|Atom|4|0|536.8|177.8|715.6|46|42
+DR Monstaa|Cross|3|2|404.6|345.3|494.9|44|65
+DR Monstaa|Hound|6|0|586.5|287.0|150.2|55|50
+DR Monstaa|No Mercy|1|4|254.3|512.1|452.2|27|71
+DR Monstaa|Revon TTR|1|1|362.1|377.2|1388.4|51|62
+Arbalest|Atom|1|0|384.7|48.3|1526.0|75|43
+Arbalest|Cross|0|2|123.7|390.9|1268.8|45|66
+Arbalest|Hound|1|4|257.6|454.9|720.3|97|88
+Arbalest|No Mercy|0|3|45.2|415.4|961.2|25|47
+Arbalest|Revon TTR|1|0|266.2|266.1|1715.1|170|81
+Atom|Banshee|0|6|90.8|597.0|186.6|56|72
+Atom|Dawgzilla|0|5|116.9|531.4|427.0|46|39
+Atom|Ironclad|0|6|61.4|552.7|274.1|32|74
+Atom|Pinnacle|0|4|74.9|374.9|808.1|42|70
+Atom|Skyline GT-R R34|0|4|220.7|481.4|874.1|124|126
+Banshee|Block Buster|0|6|61.9|579.9|130.3|13|51
+Banshee|Fenrir|3|3|372.1|359.8|369.9|119|79
+Banshee|Katana|0|5|96.2|536.6|533.8|21|119
+Banshee|Prancer|4|1|486.9|238.4|495.8|68|79
+Banshee|The Raven|4|1|516.7|240.2|640.8|97|114
+Big Bertha|BT One|4|2|554.0|262.0|262.1|75|27
+Big Bertha|Hot Pursuit|6|0|594.1|87.4|107.3|47|9
+Big Bertha|Macabre|6|0|597.6|8.0|128.2|58|5
+Big Bertha|Rebel|6|0|585.0|18.3|79.6|37|5
+Big Bertha|Vigilante|6|0|597.7|63.5|103.1|56|16
+Block Buster|Fenrir|5|1|565.9|128.9|231.2|76|24
+Block Buster|Katana|2|3|268.2|423.6|643.0|22|127
+Block Buster|Prancer|6|0|570.3|44.1|108.8|46|10
+Block Buster|The Raven|6|0|588.9|4.8|89.6|50|1
+BMW M1|Dawgzilla|0|6|66.5|584.2|86.7|27|35
+BMW M1|Ironclad|0|5|32.1|526.0|438.8|14|50
+BMW M1|Pinnacle|0|5|55.2|464.9|563.2|54|77
+BMW M1|Skyline GT-R R34|0|4|78.7|445.0|745.4|57|59
+Brute Force|Cross|1|4|432.2|450.1|434.7|44|58
+Brute Force|Hound|5|1|556.2|208.5|120.4|55|36
+Brute Force|No Mercy|0|6|179.6|579.8|361.2|24|49
+Brute Force|Revon TTR|3|2|481.4|355.0|451.9|83|55
+BT One|Cross|5|0|587.9|100.0|352.1|33|20
+BT One|Hound|6|0|592.4|14.5|45.7|24|2
+BT One|No Mercy|5|0|541.1|222.5|400.1|37|26
+BT One|Revon TTR|6|0|587.3|42.5|76.9|38|6
+Cross|Dawgzilla|1|2|281.8|427.5|1004.5|86|45
+Cross|Ironclad|6|0|537.3|214.1|365.5|85|43
+Cross|Pinnacle|3|2|426.3|233.0|678.2|61|81
+Cross|Skyline GT-R R34|1|0|264.7|62.5|1534.4|53|25
+Dawgzilla|Fenrir|3|0|498.4|161.3|981.8|75|71
+Dawgzilla|Katana|1|2|315.1|323.2|1149.0|34|96
+Dawgzilla|Prancer|6|0|577.3|96.3|168.1|50|46
+Dawgzilla|The Raven|3|2|503.5|241.3|805.1|51|134
+Draconian|Hot Pursuit|0|5|48.9|490.7|473.3|17|90
+Draconian|Macabre|1|1|386.6|214.5|1584.2|192|128
+Draconian|Rebel|2|0|245.4|236.7|1497.1|72|74
+Draconian|Vigilante|0|3|281.5|492.8|1203.4|179|186
+Fenrir|Katana|1|5|100.0|528.1|405.8|23|126
+Fenrir|Prancer|4|2|438.5|265.3|312.6|61|96
+Fenrir|The Raven|6|0|593.7|181.0|309.8|87|98
+Get Lost|Ironclad|5|1|528.4|251.8|408.4|110|83
+Get Lost|Pinnacle|5|0|546.9|49.7|424.6|65|37
+Get Lost|Skyline GT-R R34|6|0|585.0|124.0|317.3|107|77
+Hakosuka|Hound|0|6|226.6|582.4|210.9|68|83
+Hakosuka|No Mercy|0|6|1.8|576.7|86.2|2|45
+Hakosuka|Revon TTR|0|6|180.9|578.9|135.8|42|53
+Hot Pursuit|Hound|6|0|578.3|109.4|104.3|48|17
+Hot Pursuit|No Mercy|2|4|309.9|477.3|141.0|34|46
+Hot Pursuit|Revon TTR|5|1|569.8|250.3|203.4|92|35
+Hound|Ironclad|3|1|462.6|312.9|747.0|76|65
+Hound|Pinnacle|2|2|352.2|374.0|925.2|62|120
+Hound|Skyline GT-R R34|1|3|322.4|351.4|1024.0|108|135
+Ironclad|Katana|0|5|31.1|513.0|433.7|3|56
+Ironclad|Prancer|2|1|437.2|288.0|1143.4|94|75
+Ironclad|The Raven|5|1|533.5|270.2|411.6|89|92
+Jet Blade|Macabre|0|0|259.6|162.9|1792.8|119|89
+Jet Blade|Rebel|0|0|136.8|229.2|1792.8|25|56
+Jet Blade|Vigilante|0|3|262.1|375.7|1290.6|140|121
+Katana|Prancer|6|0|562.0|30.4|185.8|78|7
+Katana|The Raven|5|0|518.5|45.2|591.5|102|11
+Lancia Rally|Pinnacle|0|6|48.6|499.8|160.4|36|56
+Lancia Rally|Skyline GT-R R34|0|5|83.8|563.9|456.3|72|76
+Liquid Metal Prototype|No Mercy|0|6|5.3|590.7|36.4|2|20
+Liquid Metal Prototype|Revon TTR|0|6|90.3|554.3|131.6|30|43
+Macabre|No Mercy|0|5|51.7|539.4|435.8|17|70
+Macabre|Revon TTR|1|5|427.0|559.6|300.5|118|127
+No Mercy|Pinnacle|5|0|499.0|42.3|458.7|43|13
+No Mercy|Skyline GT-R R34|5|0|548.8|49.9|565.2|90|27
+Pinnacle|Prancer|4|0|398.3|214.1|855.1|91|55
+Pinnacle|The Raven|0|3|298.2|426.1|1360.6|155|171
+Potenza|Rebel|1|4|218.0|393.8|630.1|33|85
+Potenza|Vigilante|3|1|443.4|376.6|1164.0|209|173
+Prancer|The Raven|2|3|341.8|390.4|584.2|73|86
+Quadra Turbo|Skyline GT-R R34|2|1|349.1|249.4|1186.0|110|91
+Ragnarök|Revon TTR|6|0|591.3|34.8|127.5|54|9
+Rebel|Revon TTR|2|1|398.2|291.7|1067.9|93|41
+Revon TTR|Skyline GT-R R34|5|0|538.8|297.2|652.6|104|106
+Skyline GT-R R34|The Raven|2|2|319.2|359.2|1279.9|157|211
+Tornado Shark|MAX Revenge|0|6|301.0|497.4|267.5|73|80
+Tornado Shark|Mighty Eight|1|5|380.2|469.1|158.1|47|68
+Tornado Shark|Big Bertha|0|6|0.0|588.4|64.8|0|30
+Tornado Shark|Draconian|0|5|25.3|462.7|588.3|51|119
+Tornado Shark|Jet Blade|0|6|40.8|493.6|361.1|45|111
+Tornado Shark|Potenza|0|6|68.3|500.1|242.3|48|65
+Formula 7|Nimi|0|6|83.9|523.4|250.8|39|64
+Formula 7|EL KING|0|6|99.2|583.2|70.6|25|29
+Formula 7|Banshee|0|6|68.2|581.0|62.7|31|34
+Formula 7|Dawgzilla|0|6|80.3|600.0|49.6|20|23
+Formula 7|Ironclad|0|6|25.3|581.7|89.8|11|27
+Formula 7|Pinnacle|0|6|67.0|496.1|222.8|35|60
+Formula 7|Skyline GT-R R34|0|6|99.0|593.0|143.0|43|51
+Wow Caninaro|Nimi|6|0|590.1|229.7|190.6|54|51
+Wow Caninaro|EL KING|0|6|79.6|585.4|134.4|29|58
+Wow Caninaro|Banshee|1|5|158.8|560.2|255.6|67|84
+Wow Caninaro|Dawgzilla|0|3|117.2|395.3|1027.2|43|43
+Wow Caninaro|Ironclad|0|4|158.6|444.0|779.1|55|67
+Wow Caninaro|Pinnacle|1|5|239.8|447.6|625.4|78|134
+Wow Caninaro|Skyline GT-R R34|0|5|250.7|473.1|709.0|132|151
+La Vita Crab|MAX Revenge|1|5|255.3|466.4|217.0|49|48
+La Vita Crab|Mighty Eight|2|3|417.2|467.8|441.0|41|42
+La Vita Crab|Big Bertha|0|6|0.0|600.0|40.0|0|20
+La Vita Crab|Draconian|0|5|19.6|442.3|472.1|32|67
+La Vita Crab|Jet Blade|0|6|16.2|486.0|203.5|28|67
+La Vita Crab|Potenza|0|5|51.7|466.0|436.0|31|41
+Nimi|Kool Kat|0|6|159.0|556.1|206.9|57|64
+Nimi|Radical One|0|6|176.5|497.8|321.4|48|58
+Nimi|BMW M1|2|2|390.0|221.5|991.3|101|118
+Nimi|Get Lost|0|6|46.7|552.2|119.2|39|59
+Nimi|Lancia Rally|4|0|484.6|104.5|813.2|72|169
+Nimi|Quadra Turbo|0|4|79.8|421.6|723.7|49|67
+Nimi|Titan Mk II|0|6|0.0|588.3|48.1|0|21
+MAX Revenge|High Rider|1|5|344.0|505.1|276.6|79|90
+MAX Revenge|Atom|0|3|245.1|331.8|1096.4|82|102
+MAX Revenge|Cross|0|6|53.1|513.6|136.9|25|59
+MAX Revenge|Hound|0|6|110.3|575.6|155.8|45|73
+MAX Revenge|No Mercy|0|5|25.5|538.1|370.5|16|51
+MAX Revenge|Revon TTR|0|6|199.6|571.8|334.5|69|63
+Lead Oxide|Kool Kat|3|3|439.5|478.3|210.8|62|84
+Lead Oxide|Radical One|0|6|328.1|505.8|384.5|76|102
+Lead Oxide|BMW M1|4|1|468.8|364.5|434.7|47|72
+Lead Oxide|Get Lost|0|6|76.6|555.3|157.8|42|62
+Lead Oxide|Lancia Rally|6|0|575.2|254.7|62.6|25|30
+Lead Oxide|Quadra Turbo|2|4|375.0|528.0|288.9|64|99
+Lead Oxide|Titan Mk II|0|6|7.7|586.2|78.2|3|33
+Kool Kat|Mighty Eight|6|0|581.3|248.8|150.4|45|57
+Kool Kat|Big Bertha|0|6|12.9|585.8|106.6|5|39
+Kool Kat|Draconian|1|4|162.0|400.9|776.3|84|140
+Kool Kat|Jet Blade|0|4|100.5|424.5|835.6|67|112
+Kool Kat|Potenza|0|3|229.5|366.4|1069.1|87|108
+Drifter X|EL KING|0|6|86.7|582.2|75.8|32|35
+Drifter X|Banshee|0|5|149.1|538.1|558.8|75|69
+Drifter X|Dawgzilla|0|4|103.5|541.5|731.3|46|49
+Drifter X|Ironclad|0|5|117.9|552.0|500.2|49|74
+Drifter X|Pinnacle|0|6|110.9|468.4|323.4|52|99
+Drifter X|Skyline GT-R R34|0|4|127.0|397.1|764.4|64|71
+Sword of Justice|EL KING|2|4|407.8|477.2|162.2|82|28
+Sword of Justice|Banshee|3|3|449.0|398.6|181.6|77|62
+Sword of Justice|Dawgzilla|0|6|137.4|598.6|143.9|39|32
+Sword of Justice|Ironclad|4|2|447.5|272.2|161.5|56|49
+Sword of Justice|Pinnacle|3|2|409.2|299.6|640.0|60|64
+Sword of Justice|Skyline GT-R R34|6|0|583.6|215.7|232.8|101|78
+High Rider|Mighty Eight|5|0|589.8|262.1|139.0|36|45
+High Rider|Big Bertha|0|6|15.0|579.0|66.4|3|35
+High Rider|Draconian|0|5|77.6|417.0|672.6|79|134
+High Rider|Jet Blade|0|5|85.6|496.6|577.2|50|100
+High Rider|Potenza|0|5|205.6|525.9|545.5|66|88
+EL KING|Radical One|6|0|592.1|126.5|127.6|40|41
+EL KING|BMW M1|6|0|581.7|60.8|40.4|19|17
+EL KING|Get Lost|2|4|401.1|487.3|220.2|51|90
+EL KING|Lancia Rally|6|0|589.3|55.5|28.8|17|15
+EL KING|Quadra Turbo|5|0|529.5|227.6|486.2|41|73
+EL KING|Titan Mk II|0|6|55.8|599.1|81.5|5|43
+Mighty Eight|Atom|0|6|340.1|497.5|130.8|55|51
+Mighty Eight|Cross|0|6|43.1|563.4|59.4|18|20
+Mighty Eight|Hound|0|6|63.1|563.1|38.5|17|27
+Mighty Eight|No Mercy|0|6|3.9|589.8|45.4|2|25
+Mighty Eight|Revon TTR|0|6|93.9|573.5|36.8|17|18
+M A S H E E N|Radical One|6|0|600.0|106.4|50.2|25|23
+M A S H E E N|BMW M1|5|0|558.6|100.9|323.1|10|8
+M A S H E E N|Get Lost|6|0|596.3|172.9|66.1|26|26
+M A S H E E N|Lancia Rally|6|0|597.1|80.1|82.5|17|16
+M A S H E E N|Quadra Turbo|6|0|594.7|116.9|56.5|24|23
+M A S H E E N|Titan Mk II|6|0|600.0|277.7|265.4|58|74
+Radical One|Big Bertha|0|6|0.0|594.3|85.5|0|39
+Radical One|Draconian|1|0|153.2|277.8|1613.3|77|83
+Radical One|Jet Blade|0|4|195.9|361.9|1122.8|84|108
+Radical One|Potenza|0|1|195.8|404.5|1573.9|74|105
+DR Monstaa|Banshee|1|1|490.2|374.0|1348.6|55|79
+DR Monstaa|Dawgzilla|0|4|255.3|509.7|728.0|61|66
+DR Monstaa|Ironclad|3|0|483.8|262.8|1092.0|60|58
+DR Monstaa|Pinnacle|4|0|501.4|264.0|498.4|35|75
+DR Monstaa|Skyline GT-R R34|4|1|565.2|338.6|522.3|80|103
+Arbalest|Banshee|1|1|302.4|230.4|1486.2|216|115
+Arbalest|Dawgzilla|0|5|161.2|501.7|704.7|97|72
+Arbalest|Ironclad|0|3|184.5|359.0|1289.3|97|114
+Arbalest|Pinnacle|0|1|90.6|211.8|1668.8|38|74
+Arbalest|Skyline GT-R R34|3|0|323.9|97.6|1468.2|151|73
+Atom|Big Bertha|0|5|3.6|546.4|340.5|1|20
+Atom|Draconian|0|3|27.3|332.9|1030.6|35|64
+Atom|Jet Blade|0|5|64.7|462.0|556.8|59|93
+Atom|Potenza|0|3|89.6|415.6|1157.5|74|117
+Banshee|BMW M1|5|0|560.5|54.6|382.4|37|35
+Banshee|Get Lost|2|3|370.7|375.0|580.9|105|92
+Banshee|Lancia Rally|6|0|587.0|22.7|73.4|26|16
+Banshee|Quadra Turbo|1|3|375.3|382.9|916.2|74|140
+Banshee|Titan Mk II|0|6|19.5|585.2|102.0|2|36
+Big Bertha|Cross|5|0|589.2|64.7|392.8|33|16
+Big Bertha|Hound|6|0|583.5|0.0|74.5|37|0
+Big Bertha|No Mercy|4|0|523.6|98.4|674.5|42|17
+Big Bertha|Revon TTR|5|0|571.6|60.5|395.2|61|15
+Block Buster|BMW M1|6|0|595.2|0.0|30.0|18|0
+Block Buster|Get Lost|5|0|499.5|32.9|399.6|52|7
+Block Buster|Lancia Rally|6|0|583.1|0.0|30.6|18|0
+Block Buster|Quadra Turbo|5|0|584.4|31.3|377.8|36|7
+Block Buster|Titan Mk II|1|5|284.9|494.8|188.2|43|58
+BMW M1|Draconian|0|4|25.1|453.4|736.6|45|63
+BMW M1|Jet Blade|0|3|18.7|355.3|996.9|36|49
+BMW M1|Potenza|0|3|37.1|384.7|1079.9|23|46
+Brute Force|Dawgzilla|1|5|282.9|550.0|145.1|56|63
+Brute Force|Ironclad|4|1|540.5|159.0|421.8|72|44
+Brute Force|Pinnacle|3|1|482.3|267.3|757.2|57|77
+Brute Force|Skyline GT-R R34|5|0|508.4|159.8|451.2|58|52
+BT One|Dawgzilla|4|2|510.4|402.0|236.9|73|44
+BT One|Ironclad|6|0|591.5|30.1|55.4|28|4
+BT One|Pinnacle|6|0|597.1|17.9|59.5|26|6
+BT One|Skyline GT-R R34|6|0|595.0|0.0|64.2|35|0
+Cross|Draconian|4|0|457.9|189.6|968.2|124|78
+Cross|Jet Blade|3|0|349.1|113.8|1134.6|87|44
+Cross|Potenza|4|1|495.2|284.3|740.2|127|108
+Dawgzilla|Get Lost|2|0|495.8|228.1|1268.8|67|81
+Dawgzilla|Lancia Rally|6|0|594.4|66.6|78.4|23|18
+Dawgzilla|Quadra Turbo|5|0|536.8|175.2|583.7|63|75
+Dawgzilla|Titan Mk II|0|6|248.4|593.5|216.4|37|87
+Draconian|Hound|0|4|287.7|459.2|938.8|122|122
+Draconian|No Mercy|0|2|70.0|291.5|1380.8|37|58
+Draconian|Revon TTR|3|1|426.4|298.7|1146.2|200|106
+Fenrir|Get Lost|1|4|275.0|502.8|549.5|73|126
+Fenrir|Lancia Rally|6|0|584.2|53.6|71.2|21|22
+Fenrir|Quadra Turbo|0|3|176.4|438.9|1119.8|45|149
+Fenrir|Titan Mk II|0|6|44.0|595.6|173.2|11|59
+Get Lost|Jet Blade|2|2|289.7|203.4|1061.1|80|99
+Get Lost|Potenza|5|0|567.3|280.6|887.3|247|193
+Hakosuka|Ironclad|0|6|72.8|582.4|421.9|41|95
+Hakosuka|Pinnacle|0|4|109.8|481.2|909.2|67|110
+Hakosuka|Skyline GT-R R34|0|6|168.2|592.7|402.6|104|148
+Hot Pursuit|Ironclad|6|0|583.2|47.6|144.2|68|8
+Hot Pursuit|Pinnacle|6|0|592.8|24.7|116.3|51|12
+Hot Pursuit|Skyline GT-R R34|5|0|552.1|63.2|442.8|79|22
+Hound|Jet Blade|2|4|446.3|391.5|489.4|101|141
+Hound|Potenza|5|0|547.5|327.8|516.7|119|108
+Ironclad|Lancia Rally|6|0|535.7|18.6|58.1|19|8
+Ironclad|Quadra Turbo|4|1|442.9|275.5|872.7|68|94
+Ironclad|Titan Mk II|0|6|0.0|599.4|52.1|0|27
+Jet Blade|No Mercy|0|3|77.6|445.7|997.0|48|66
+Jet Blade|Revon TTR|1|1|362.1|311.4|1305.0|191|99
+Katana|Lancia Rally|6|0|550.5|0.0|57.1|25|0
+Katana|Quadra Turbo|4|0|457.4|30.8|691.6|52|9
+Katana|Titan Mk II|0|5|177.2|480.4|551.1|108|37
+Lancia Rally|Potenza|0|4|39.5|480.8|681.7|28|39
+Liquid Metal Prototype|Pinnacle|0|6|39.9|546.6|121.2|24|50
+Liquid Metal Prototype|Skyline GT-R R34|0|6|62.5|530.9|105.7|39|56
+Macabre|Pinnacle|2|0|272.0|229.0|1438.7|69|82
+Macabre|Skyline GT-R R34|4|0|475.7|390.6|894.0|118|124
+No Mercy|Potenza|5|0|498.0|27.4|422.7|64|6
+Pinnacle|Quadra Turbo|0|2|226.6|283.9|1304.1|76|63
+Pinnacle|Titan Mk II|0|6|7.9|595.5|69.5|6|23
+Potenza|Revon TTR|0|2|376.4|497.2|1433.0|137|99
+Prancer|Quadra Turbo|2|2|311.6|354.6|860.3|57|59
+Prancer|Titan Mk II|0|6|3.4|590.0|57.0|2|27
+Ragnarök|Skyline GT-R R34|5|0|542.0|6.9|391.3|45|5
+Rebel|Skyline GT-R R34|5|0|484.5|144.2|497.1|82|28
+Skyline GT-R R34|Titan Mk II|0|6|13.2|591.9|141.3|13|36
+The Raven|Titan Mk II|0|5|5.9|554.5|353.6|1|31
+Tornado Shark|Lead Oxide|0|6|328.5|554.2|118.8|44|45
+Tornado Shark|M A S H E E N|0|6|83.6|598.9|31.7|17|22
+Tornado Shark|Block Buster|0|6|8.6|596.1|66.9|3|32
+Tornado Shark|Fenrir|0|6|53.5|554.7|255.0|48|66
+Tornado Shark|Katana|0|6|4.3|535.0|173.8|1|73
+Tornado Shark|Prancer|0|5|72.8|503.5|407.5|30|50
+Tornado Shark|The Raven|0|6|77.1|567.4|163.5|29|67
+Formula 7|MAX Revenge|0|6|143.0|497.7|168.2|47|43
+Formula 7|Mighty Eight|0|6|379.9|540.2|78.5|28|24
+Formula 7|Big Bertha|0|6|0.0|600.0|25.3|0|17
+Formula 7|Draconian|0|5|20.9|483.8|490.6|33|55
+Formula 7|Jet Blade|0|4|26.4|432.8|684.0|21|29
+Formula 7|Potenza|0|6|65.1|580.5|94.6|31|35
+Wow Caninaro|MAX Revenge|5|1|492.9|319.6|398.2|87|82
+Wow Caninaro|Mighty Eight|5|0|522.1|195.0|455.6|34|40
+Wow Caninaro|Big Bertha|0|6|0.0|591.6|90.6|0|44
+Wow Caninaro|Draconian|0|4|63.8|374.9|992.0|60|99
+Wow Caninaro|Jet Blade|0|4|60.9|400.4|900.4|54|134
+Wow Caninaro|Potenza|0|5|188.0|494.6|663.8|106|137
+La Vita Crab|Lead Oxide|0|6|331.0|559.8|105.0|33|24
+La Vita Crab|M A S H E E N|0|5|126.6|502.9|340.5|12|15
+La Vita Crab|Block Buster|0|6|4.7|598.2|45.9|3|24
+La Vita Crab|Fenrir|0|6|42.0|596.8|90.1|27|40
+La Vita Crab|Katana|0|6|8.6|552.3|90.5|2|36
+La Vita Crab|Prancer|0|5|84.2|453.9|383.3|26|30
+La Vita Crab|The Raven|0|6|55.1|546.6|234.1|49|59
+Nimi|Drifter X|0|6|354.6|427.5|436.3|68|67
+Nimi|DR Monstaa|1|4|267.2|500.8|853.6|73|44
+Nimi|Brute Force|0|6|97.2|569.1|96.8|31|39
+Nimi|Hakosuka|5|0|503.7|285.2|579.3|101|64
+Nimi|Liquid Metal Prototype|6|0|575.2|134.7|242.3|62|44
+Nimi|Ragnarök|0|5|0.0|483.9|381.8|0|21
+Nimi|Ultimatum|0|3|18.9|333.7|1403.2|30|151
+MAX Revenge|EL KING|0|5|97.4|565.8|394.0|39|53
+MAX Revenge|Banshee|0|5|59.4|579.3|412.2|31|56
+MAX Revenge|Dawgzilla|0|6|118.3|566.2|200.9|48|61
+MAX Revenge|Ironclad|0|4|121.4|471.7|813.8|49|71
+MAX Revenge|Pinnacle|0|4|92.4|396.7|803.3|44|94
+MAX Revenge|Skyline GT-R R34|0|4|150.8|452.4|829.6|100|127
+Lead Oxide|Drifter X|5|1|538.7|389.6|241.8|76|78
+Lead Oxide|DR Monstaa|1|3|286.4|473.6|757.3|67|69
+Lead Oxide|Brute Force|0|4|115.3|489.5|696.6|32|47
+Lead Oxide|Hakosuka|6|0|588.8|480.0|276.4|89|87
+Lead Oxide|Liquid Metal Prototype|6|0|544.2|231.5|77.4|30|30
+Lead Oxide|Ragnarök|0|6|58.8|583.5|203.4|26|61
+Lead Oxide|Ultimatum|2|4|415.3|566.3|330.3|90|148
+Kool Kat|M A S H E E N|0|6|144.9|596.4|100.7|20|22
+Kool Kat|Block Buster|0|6|0.0|593.5|78.9|0|44
+Kool Kat|Fenrir|2|4|226.0|487.1|190.5|70|57
+Kool Kat|Katana|0|6|14.6|583.7|131.2|2|60
+Kool Kat|Prancer|1|4|241.5|498.3|470.1|50|61
+Kool Kat|The Raven|0|5|159.9|536.1|501.6|34|99
+Drifter X|Mighty Eight|6|0|506.2|303.8|164.6|43|47
+Drifter X|Big Bertha|0|6|0.0|600.0|74.0|0|37
+Drifter X|Draconian|0|5|44.4|400.6|656.0|47|90
+Drifter X|Jet Blade|0|4|49.4|460.2|835.2|59|106
+Drifter X|Potenza|0|4|105.0|380.9|824.0|72|82
+Sword of Justice|Mighty Eight|6|0|593.6|82.1|50.9|26|23
+Sword of Justice|Big Bertha|0|6|30.6|598.8|59.5|6|27
+Sword of Justice|Draconian|4|2|497.5|389.7|432.8|114|106
+Sword of Justice|Jet Blade|1|5|378.3|473.2|377.9|112|108
+Sword of Justice|Potenza|3|3|556.9|404.6|348.7|153|103
+High Rider|M A S H E E N|0|6|115.8|595.9|24.8|13|15
+High Rider|Block Buster|0|6|22.1|598.5|77.1|4|42
+High Rider|Fenrir|0|5|182.2|538.4|501.8|68|80
+High Rider|Katana|0|6|10.1|558.3|115.4|2|52
+High Rider|Prancer|0|5|245.9|490.6|471.0|50|60
+High Rider|The Raven|0|6|269.3|581.8|279.2|84|109
+EL KING|DR Monstaa|4|1|568.9|302.1|441.0|56|48
+EL KING|Brute Force|4|2|445.6|250.7|236.4|30|47
+EL KING|Hakosuka|6|0|591.7|91.1|108.0|47|33
+EL KING|Liquid Metal Prototype|6|0|587.9|57.1|69.7|30|20
+EL KING|Ragnarök|0|5|4.5|578.0|413.4|1|60
+EL KING|Ultimatum|6|0|597.7|82.6|91.7|37|36
+Mighty Eight|Banshee|0|6|60.2|585.7|70.1|26|30
+Mighty Eight|Dawgzilla|0|5|56.2|490.6|338.3|15|16
+Mighty Eight|Ironclad|0|6|79.2|579.7|116.2|52|53
+Mighty Eight|Pinnacle|0|3|37.2|381.5|1013.2|23|41
+Mighty Eight|Skyline GT-R R34|0|6|99.6|539.3|183.2|52|50
+M A S H E E N|DR Monstaa|6|0|600.0|117.0|58.6|27|27
+M A S H E E N|Brute Force|6|0|599.3|78.9|38.0|19|16
+M A S H E E N|Hakosuka|6|0|594.7|141.7|51.8|24|22
+M A S H E E N|Liquid Metal Prototype|6|0|584.4|66.3|17.7|10|10
+M A S H E E N|Ragnarök|0|0|74.3|5.0|1792.8|15|5
+M A S H E E N|Ultimatum|6|0|600.0|141.6|33.8|17|17
+Radical One|Block Buster|0|5|44.7|582.0|360.5|13|42
+Radical One|Fenrir|1|5|324.1|513.7|429.8|117|90
+Radical One|Katana|0|4|87.5|383.3|811.0|22|46
+Radical One|Prancer|3|1|423.7|286.8|822.7|63|53
+Radical One|The Raven|1|2|294.6|375.6|1341.6|86|90
+DR Monstaa|Big Bertha|0|6|160.4|559.6|223.8|37|53
+DR Monstaa|Draconian|2|1|461.1|461.5|1153.6|113|163
+DR Monstaa|Jet Blade|0|3|377.6|427.9|1049.2|68|126
+DR Monstaa|Potenza|2|2|458.4|393.9|929.6|58|79
+Arbalest|Big Bertha|0|6|38.9|599.8|156.4|14|49
+Arbalest|Draconian|0|0|118.5|111.7|1792.8|71|56
+Arbalest|Jet Blade|0|1|81.4|126.5|1560.7|38|46
+Arbalest|Potenza|0|0|143.8|220.7|1792.8|87|91
+Atom|Block Buster|0|6|2.0|588.2|52.8|1|25
+Atom|Fenrir|0|5|118.0|513.1|473.6|64|63
+Atom|Katana|0|5|26.6|513.8|421.4|12|54
+Atom|Prancer|0|5|205.3|553.4|459.5|69|77
+Atom|The Raven|0|4|75.1|465.7|790.0|53|95
+Banshee|Brute Force|1|3|201.5|351.4|700.8|40|46
+Banshee|Hakosuka|6|0|569.7|74.8|168.5|77|43
+Banshee|Liquid Metal Prototype|6|0|584.1|41.5|79.6|37|22
+Banshee|Ragnarök|0|6|6.1|597.7|133.2|4|52
+Banshee|Ultimatum|2|0|461.3|184.2|1289.6|101|141
+Big Bertha|Dawgzilla|4|1|544.5|215.7|523.8|102|36
+Big Bertha|Ironclad|6|0|590.3|12.8|77.5|33|3
+Big Bertha|Pinnacle|6|0|598.6|7.5|82.4|28|4
+Big Bertha|Skyline GT-R R34|6|0|596.3|9.4|119.4|52|7
+Block Buster|Brute Force|6|0|597.7|21.5|77.5|34|4
+Block Buster|Hakosuka|6|0|591.3|0.0|74.5|33|0
+Block Buster|Liquid Metal Prototype|6|0|588.2|0.0|27.8|15|0
+Block Buster|Ragnarök|1|5|188.1|478.2|190.1|29|42
+Block Buster|Ultimatum|6|0|594.2|0.4|113.2|35|1
+BMW M1|Fenrir|0|5|84.3|558.1|386.8|55|46
+BMW M1|Katana|0|6|10.7|594.8|105.0|4|43
+BMW M1|Prancer|0|5|164.8|492.6|513.3|61|42
+BMW M1|The Raven|0|5|9.2|569.2|403.5|11|58
+Brute Force|Draconian|3|0|445.6|257.6|1029.7|98|107
+Brute Force|Jet Blade|5|1|528.7|298.4|472.0|93|92
+Brute Force|Potenza|5|1|575.0|249.0|228.4|96|85
+BT One|Draconian|5|0|576.5|19.6|386.3|44|6
+BT One|Jet Blade|6|0|592.8|5.6|78.0|48|3
+BT One|Potenza|6|0|587.6|24.0|130.4|41|9
+Cross|Fenrir|4|1|445.2|223.5|540.5|103|51
+Cross|Katana|0|5|173.6|438.1|471.4|26|56
+Cross|Prancer|5|0|559.3|148.2|448.4|69|41
+Cross|The Raven|4|0|508.3|254.2|978.4|106|84
+Dawgzilla|Hakosuka|5|0|520.3|87.4|493.6|54|38
+Dawgzilla|Liquid Metal Prototype|6|0|583.5|38.7|47.5|25|19
+Dawgzilla|Ragnarök|3|3|343.5|428.9|291.6|65|80
+Dawgzilla|Ultimatum|4|0|553.7|116.3|730.7|50|63
+Draconian|Ironclad|0|1|136.5|224.1|1680.2|71|110
+Draconian|Pinnacle|0|0|163.1|143.3|1792.8|67|90
+Draconian|Skyline GT-R R34|1|0|157.2|18.5|1610.1|77|30
+Fenrir|Hakosuka|6|0|582.6|94.4|186.5|87|65
+Fenrir|Liquid Metal Prototype|6|0|584.2|61.0|83.9|32|26
+Fenrir|Ragnarök|0|6|0.0|595.6|143.5|0|73
+Fenrir|Ultimatum|6|0|592.7|182.9|429.9|104|139
+Get Lost|Katana|1|4|232.7|497.2|623.4|40|103
+Get Lost|Prancer|3|0|423.9|111.9|967.0|45|50
+Get Lost|The Raven|4|1|565.4|236.5|625.0|131|108
+Hakosuka|Jet Blade|0|5|49.6|493.6|542.3|50|97
+Hakosuka|Potenza|0|6|88.3|524.9|353.1|54|95
+Hot Pursuit|Jet Blade|6|0|583.1|47.9|267.3|92|19
+Hot Pursuit|Potenza|6|0|562.0|69.7|232.5|94|23
+Hound|Katana|0|5|169.6|515.8|497.6|33|80
+Hound|Prancer|4|2|547.4|295.9|211.0|64|62
+Hound|The Raven|4|1|475.4|202.0|461.5|58|58
+Ironclad|Liquid Metal Prototype|6|0|572.3|21.5|86.2|36|14
+Ironclad|Ragnarök|0|6|25.6|594.9|125.5|7|43
+Ironclad|Ultimatum|2|0|463.0|71.7|1287.2|80|42
+Jet Blade|Pinnacle|0|0|195.3|87.7|1792.8|59|45
+Jet Blade|Skyline GT-R R34|3|0|313.4|126.6|1290.3|129|84
+Katana|Liquid Metal Prototype|6|0|511.9|0.0|51.7|28|0
+Katana|Ragnarök|2|4|403.2|496.8|531.6|173|45
+Katana|Ultimatum|4|0|487.6|6.5|722.1|56|3
+Lancia Rally|Prancer|0|6|36.2|550.6|68.5|20|24
+Lancia Rally|The Raven|0|6|7.3|568.0|91.4|8|38
+Liquid Metal Prototype|Potenza|0|6|31.0|512.8|77.9|26|36
+Macabre|Potenza|1|3|280.8|333.2|1108.7|118|129
+No Mercy|Prancer|6|0|579.4|28.0|110.8|47|7
+No Mercy|The Raven|6|0|590.5|35.0|166.2|72|11
+Pinnacle|Ragnarök|0|5|0.0|564.9|362.3|0|32
+Pinnacle|Ultimatum|2|0|305.7|140.2|1506.5|112|93
+Potenza|Skyline GT-R R34|3|0|395.2|213.8|1143.8|166|122
+Prancer|Ragnarök|0|6|33.5|573.7|108.4|11|41
+Prancer|Ultimatum|5|0|445.8|193.7|795.7|90|72
+Quadra Turbo|The Raven|0|3|241.9|347.4|1073.8|78|80
+Revon TTR|The Raven|3|0|490.4|346.5|1051.0|60|109
+Skyline GT-R R34|Ultimatum|2|0|265.3|260.3|1547.5|114|195
+The Raven|Ultimatum|4|0|500.9|158.7|1267.2|181|99
+Tornado Shark|Kool Kat|0|6|141.7|592.3|143.5|39|57
+Tornado Shark|Radical One|0|6|82.9|500.2|216.6|36|78
+Tornado Shark|BMW M1|0|6|270.3|426.1|329.0|52|97
+Tornado Shark|Get Lost|0|6|37.5|574.2|165.2|30|57
+Tornado Shark|Lancia Rally|5|1|562.4|395.3|207.0|45|65
+Tornado Shark|Quadra Turbo|0|6|53.7|513.4|147.3|22|58
+Tornado Shark|Titan Mk II|0|6|1.2|594.7|74.5|1|27
+Formula 7|Lead Oxide|0|6|363.4|589.2|90.0|36|36
+Formula 7|M A S H E E N|0|4|63.7|477.5|622.0|10|11
+Formula 7|Block Buster|0|6|0.0|569.0|25.8|0|15
+Formula 7|Fenrir|0|6|48.0|575.9|114.6|21|28
+Formula 7|Katana|0|6|0.0|573.9|53.6|0|32
+Formula 7|Prancer|0|6|59.3|558.9|89.6|29|42
+Formula 7|The Raven|0|5|17.0|569.0|399.9|23|46
+Wow Caninaro|Lead Oxide|4|1|573.4|395.9|258.5|92|86
+Wow Caninaro|M A S H E E N|0|6|111.8|596.1|69.6|30|36
+Wow Caninaro|Block Buster|0|6|27.0|586.6|103.2|9|44
+Wow Caninaro|Fenrir|0|6|185.9|593.3|329.0|77|82
+Wow Caninaro|Katana|0|5|18.8|487.7|397.0|5|45
+Wow Caninaro|Prancer|2|3|353.5|388.5|575.0|65|71
+Wow Caninaro|The Raven|1|5|219.6|545.8|339.4|67|134
+La Vita Crab|Kool Kat|1|4|134.0|512.6|410.3|44|34
+La Vita Crab|Radical One|0|5|82.3|490.9|384.6|30|47
+La Vita Crab|BMW M1|1|5|323.2|428.6|179.0|48|61
+La Vita Crab|Get Lost|0|5|22.4|517.0|352.8|23|31
+La Vita Crab|Lancia Rally|3|3|392.8|522.0|289.6|32|61
+La Vita Crab|Quadra Turbo|0|4|89.2|476.6|691.7|29|37
+La Vita Crab|Titan Mk II|0|6|0.0|591.6|31.2|0|18
+Nimi|Sword of Justice|0|6|95.8|573.0|79.5|31|47
+Nimi|Arbalest|0|6|60.7|420.6|482.6|69|110
+Nimi|BT One|0|6|0.0|585.0|28.7|0|17
+Nimi|Hot Pursuit|0|6|0.0|543.5|56.2|0|30
+Nimi|Macabre|0|5|175.2|469.7|486.4|45|53
+Nimi|Rebel|0|6|1.6|507.1|121.5|1|33
+Nimi|Vigilante|0|6|140.0|595.7|160.6|56|71
+MAX Revenge|Mighty Eight|3|0|380.7|243.2|955.4|40|42
+MAX Revenge|Big Bertha|0|6|0.0|598.1|114.3|0|44
+MAX Revenge|Draconian|0|5|80.5|450.7|704.6|79|134
+MAX Revenge|Jet Blade|0|3|34.8|334.5|1040.5|33|72
+MAX Revenge|Potenza|0|4|79.7|445.0|797.5|55|93
+Lead Oxide|Sword of Justice|1|4|324.5|583.1|164.8|47|71
+Lead Oxide|Arbalest|1|3|296.7|469.7|968.4|97|123
+Lead Oxide|BT One|0|4|8.4|518.6|650.6|1|29
+Lead Oxide|Hot Pursuit|0|5|18.0|539.3|387.6|8|49
+Lead Oxide|Macabre|0|6|299.9|566.0|232.5|80|86
+Lead Oxide|Rebel|1|5|219.5|532.3|188.6|26|74
+Lead Oxide|Vigilante|0|5|242.0|578.8|611.8|121|137
+Kool Kat|Radical One|2|3|317.3|363.4|538.2|53|77
+Kool Kat|BMW M1|4|1|492.5|269.7|580.8|65|100
+Kool Kat|Get Lost|0|5|41.3|508.4|401.4|24|53
+Kool Kat|Lancia Rally|6|0|564.9|66.0|88.9|33|30
+Kool Kat|Quadra Turbo|2|3|299.1|398.8|547.8|50|78
+Kool Kat|Titan Mk II|0|6|0.0|575.8|44.8|0|24
+Drifter X|M A S H E E N|0|6|169.1|598.8|35.7|15|18
+Drifter X|Block Buster|0|6|0.0|548.7|50.4|0|24
+Drifter X|Fenrir|0|5|207.9|530.7|483.5|92|70
+Drifter X|Katana|0|6|9.8|569.4|134.8|2|54
+Drifter X|Prancer|0|5|200.4|460.0|469.8|41|52
+Drifter X|The Raven|0|6|77.6|576.5|211.3|35|80
+Sword of Justice|M A S H E E N|0|6|88.8|599.9|35.3|15|15
+Sword of Justice|Block Buster|0|6|25.2|597.8|53.4|4|26
+Sword of Justice|Fenrir|3|2|473.2|340.8|496.7|118|55
+Sword of Justice|Katana|0|5|45.9|551.5|446.8|10|56
+Sword of Justice|Prancer|4|2|482.0|218.9|157.5|62|43
+Sword of Justice|The Raven|5|1|506.6|293.9|164.0|78|66
+High Rider|Radical One|1|5|269.4|476.0|244.3|61|76
+High Rider|BMW M1|6|0|541.0|297.8|185.0|47|56
+High Rider|Get Lost|0|6|130.4|580.8|186.7|51|64
+High Rider|Lancia Rally|6|0|571.3|186.5|83.6|32|35
+High Rider|Quadra Turbo|1|5|207.9|507.9|223.9|54|75
+High Rider|Titan Mk II|0|6|4.2|595.8|63.2|3|35
+EL KING|Arbalest|4|1|459.1|213.8|516.4|64|105
+EL KING|BT One|0|6|30.9|598.1|107.8|5|40
+EL KING|Hot Pursuit|3|3|459.2|455.4|150.7|35|75
+EL KING|Macabre|5|0|552.0|279.4|588.7|79|87
+EL KING|Rebel|5|0|549.5|354.4|549.2|42|91
+EL KING|Vigilante|3|3|337.7|487.6|340.1|73|136
+Mighty Eight|Big Bertha|0|6|0.0|592.8|34.1|0|17
+Mighty Eight|Draconian|0|5|21.9|455.0|583.0|39|61
+Mighty Eight|Jet Blade|0|5|26.5|449.2|652.4|30|48
+Mighty Eight|Potenza|0|5|53.8|511.7|379.8|26|34
+M A S H E E N|Arbalest|6|0|599.8|163.8|213.7|23|22
+M A S H E E N|BT One|5|0|532.8|155.7|402.2|35|46
+M A S H E E N|Hot Pursuit|6|0|599.3|165.2|40.6|22|22
+M A S H E E N|Macabre|5|0|564.3|195.6|348.6|30|27
+M A S H E E N|Rebel|6|0|598.8|103.0|31.7|16|15
+M A S H E E N|Vigilante|6|0|600.0|124.7|46.4|20|20
+Radical One|BMW M1|5|0|433.1|130.9|470.0|39|42
+Radical One|Get Lost|1|5|109.2|549.9|317.2|60|78
+Radical One|Lancia Rally|6|0|553.8|122.8|82.3|26|20
+Radical One|Quadra Turbo|0|1|161.4|180.7|1556.5|38|43
+Radical One|Titan Mk II|0|6|0.0|584.4|41.2|0|25
+DR Monstaa|Block Buster|1|4|239.9|533.9|403.5|27|54
+DR Monstaa|Fenrir|4|1|557.9|280.2|510.5|99|69
+DR Monstaa|Katana|0|6|188.0|558.5|202.4|14|84
+DR Monstaa|Prancer|5|1|504.9|309.4|264.5|40|56
+DR Monstaa|The Raven|3|1|490.5|319.6|832.1|47|79
+Arbalest|Block Buster|0|5|31.0|585.7|421.6|19|50
+Arbalest|Fenrir|1|1|248.7|234.8|1462.2|153|76
+Arbalest|Katana|0|4|94.3|497.3|892.6|29|92
+Arbalest|Prancer|4|2|368.1|262.1|648.4|94|93
+Arbalest|The Raven|0|2|210.1|264.2|1503.6|78|114
+Atom|BMW M1|4|0|345.1|286.4|616.1|62|77
+Atom|Get Lost|0|5|39.7|500.0|429.3|35|58
+Atom|Lancia Rally|4|0|445.0|307.5|812.0|67|105
+Atom|Quadra Turbo|0|4|117.5|466.0|739.6|46|64
+Atom|Titan Mk II|0|6|0.6|596.5|31.9|3|23
+Banshee|BT One|0|6|9.8|596.0|89.2|1|35
+Banshee|Hot Pursuit|0|6|165.4|593.0|185.0|30|81
+Banshee|Macabre|5|1|575.9|290.1|339.7|148|107
+Banshee|Rebel|3|3|388.4|368.1|245.6|48|77
+Banshee|Vigilante|0|6|201.2|588.4|510.7|104|151
+Big Bertha|Draconian|5|0|517.8|23.5|499.5|67|13
+Big Bertha|Jet Blade|6|0|597.6|14.2|183.6|58|10
+Big Bertha|Potenza|6|0|589.3|5.6|139.3|56|3
+Block Buster|BT One|0|6|186.6|587.9|113.1|18|46
+Block Buster|Hot Pursuit|6|0|590.2|164.6|126.3|43|20
+Block Buster|Macabre|6|0|589.7|54.9|141.5|71|14
+Block Buster|Rebel|6|0|587.9|110.2|127.8|39|25
+Block Buster|Vigilante|6|0|584.1|171.4|151.5|51|36
+BMW M1|Get Lost|0|6|24.3|573.9|61.8|18|29
+BMW M1|Lancia Rally|5|1|380.0|315.8|340.0|52|70
+BMW M1|Quadra Turbo|0|4|52.2|471.6|722.6|31|46
+BMW M1|Titan Mk II|0|6|0.0|598.3|23.3|0|20
+Brute Force|Fenrir|4|2|471.1|338.2|256.2|118|61
+Brute Force|Katana|0|6|178.9|565.1|235.8|27|69
+Brute Force|Prancer|4|1|485.4|198.6|428.9|48|44
+Brute Force|The Raven|6|0|570.3|172.7|231.0|77|57
+BT One|Fenrir|6|0|589.0|18.1|123.6|51|2
+BT One|Katana|5|1|546.6|227.9|339.4|45|67
+BT One|Prancer|6|0|597.4|0.0|70.6|33|0
+BT One|The Raven|6|0|594.9|0.0|53.6|28|0
+Cross|Get Lost|1|3|353.0|347.9|895.4|86|65
+Cross|Lancia Rally|6|0|552.7|45.2|76.7|34|20
+Cross|Quadra Turbo|4|0|426.9|47.2|749.3|58|23
+Cross|Titan Mk II|0|6|42.2|596.7|91.5|14|36
+Dawgzilla|Hot Pursuit|3|2|461.3|377.8|559.8|38|96
+Dawgzilla|Macabre|5|0|552.9|280.9|718.0|110|118
+Dawgzilla|Rebel|5|1|566.0|239.1|318.9|45|70
+Dawgzilla|Vigilante|4|1|557.4|384.8|798.8|113|185
+Draconian|Jet Blade|0|0|103.2|95.3|1792.8|69|63
+Draconian|Potenza|0|0|123.8|119.6|1792.8|89|108
+Fenrir|Hot Pursuit|0|6|103.4|582.0|200.2|17|104
+Fenrir|Macabre|5|1|570.4|376.8|428.9|153|154
+Fenrir|Rebel|2|2|206.7|363.0|773.2|26|95
+Fenrir|Vigilante|1|4|323.6|566.1|691.4|216|229
+Get Lost|Lancia Rally|5|0|560.3|19.3|352.6|30|18
+Get Lost|Quadra Turbo|3|1|441.3|300.6|758.0|82|120
+Get Lost|Titan Mk II|0|5|54.9|552.9|394.8|11|43
+Hakosuka|Katana|0|5|14.0|539.4|441.4|6|68
+Hakosuka|Prancer|0|6|155.6|533.2|201.9|48|62
+Hakosuka|The Raven|0|6|85.2|576.7|225.5|48|100
+Hot Pursuit|Katana|1|5|157.8|469.1|277.1|23|74
+Hot Pursuit|Prancer|6|0|588.0|30.3|112.1|53|4
+Hot Pursuit|The Raven|6|0|587.2|5.0|129.2|74|2
+Hound|Lancia Rally|6|0|573.7|58.8|43.1|21|20
+Hound|Quadra Turbo|4|1|442.5|338.7|496.5|57|71
+Hound|Titan Mk II|0|6|21.1|594.9|86.7|6|36
+Ironclad|Macabre|3|2|461.9|333.1|1106.5|188|156
+Ironclad|Rebel|2|3|376.6|355.5|540.0|38|53
+Ironclad|Vigilante|1|1|422.2|367.2|1546.8|154|123
+Jet Blade|Potenza|0|1|161.8|221.4|1769.1|102|142
+Katana|Macabre|1|0|307.8|92.0|1560.9|64|22
+Katana|Rebel|6|0|544.2|67.3|201.2|53|11
+Katana|Vigilante|2|2|420.8|337.5|944.1|112|80
+Lancia Rally|Quadra Turbo|0|5|49.3|474.6|364.8|23|26
+Lancia Rally|Titan Mk II|0|6|0.0|596.1|28.6|0|15
+Liquid Metal Prototype|Prancer|0|6|69.8|562.1|82.2|24|33
+Liquid Metal Prototype|The Raven|0|6|19.3|571.3|77.2|21|44
+Macabre|Prancer|3|0|443.4|263.9|1048.1|68|65
+Macabre|The Raven|5|1|459.3|472.7|698.0|128|171
+No Mercy|Quadra Turbo|5|0|532.5|60.6|391.4|41|15
+No Mercy|Titan Mk II|1|4|310.5|584.0|459.5|79|38
+Pinnacle|Rebel|1|2|224.6|438.8|1044.0|43|55
+Pinnacle|Vigilante|0|3|139.2|376.7|1010.8|65|51
+Prancer|Rebel|0|6|170.3|511.5|211.2|20|53
+Prancer|Vigilante|0|4|183.3|485.9|760.0|72|68
+Quadra Turbo|Titan Mk II|0|6|16.8|593.8|73.2|4|34
+Ragnarök|The Raven|6|0|598.1|4.9|83.8|35|6
+Rebel|The Raven|5|1|467.4|118.0|267.9|65|21
+Revon TTR|Titan Mk II|0|6|21.5|574.7|124.0|6|46
+Skyline GT-R R34|Vigilante|0|6|154.3|587.9|257.4|87|117
+The Raven|Vigilante|0|6|302.0|588.3|415.2|143|142
+Tornado Shark|Taurus|0|6|130.5|593.1|222.3|58|98
+Kool Kat|Taurus|0|6|155.3|576.6|232.8|64|110
+Radical One|Taurus|2|2|362.4|416.9|865.8|92|88
+BMW M1|Taurus|0|5|121.6|495.5|462.2|48|59
+Get Lost|Taurus|6|0|554.2|189.3|249.6|74|59
+Lancia Rally|Taurus|0|6|116.3|553.0|134.4|46|49
+Quadra Turbo|Taurus|3|3|336.9|316.7|335.2|86|71
+Taurus|Ultimatum|4|1|506.4|246.6|786.6|136|140
+Formula 7|Taurus|0|6|135.4|558.0|123.7|40|45
+Drifter X|Taurus|2|3|244.8|440.6|547.3|77|79
+DR Monstaa|Taurus|5|1|546.7|272.9|193.4|46|68
+Brute Force|Taurus|2|4|435.0|407.0|374.4|76|122
+Hakosuka|Taurus|0|5|157.9|537.0|544.2|59|89
+Liquid Metal Prototype|Taurus|0|6|119.5|577.9|147.7|34|45
+Ragnarök|Taurus|6|0|567.3|23.2|96.1|24|11
+Taurus|Vigilante|0|5|151.6|557.9|450.4|68|77
+Wow Caninaro|Taurus|1|5|234.9|561.9|465.8|102|150
+Sword of Justice|Taurus|5|1|541.3|255.7|161.2|57|42
+Arbalest|Taurus|2|1|342.1|178.3|1119.4|91|53
+BT One|Taurus|6|0|595.8|0.0|48.0|24|0
+Hot Pursuit|Taurus|5|0|546.3|56.7|394.1|46|14
+Macabre|Taurus|4|2|497.4|416.1|321.2|110|136
+Rebel|Taurus|4|2|498.8|388.2|265.2|74|63
+La Vita Crab|Taurus|0|5|76.5|533.7|391.6|37|55
+High Rider|Taurus|1|4|308.8|486.1|563.4|78|82
+Atom|Taurus|0|5|239.5|521.0|534.2|84|91
+Cross|Taurus|6|0|527.7|50.3|299.4|53|21
+Hound|Taurus|0|6|280.2|582.3|305.7|86|113
+No Mercy|Taurus|6|0|575.7|76.1|142.1|51|21
+Revon TTR|Taurus|4|1|533.8|344.6|530.6|96|111
+Nimi|Taurus|0|5|159.5|497.9|576.7|74|74
+EL KING|Taurus|5|1|543.6|260.8|321.2|63|112
+Banshee|Taurus|6|0|570.6|268.1|565.4|131|156
+Dawgzilla|Taurus|5|0|585.8|166.3|477.9|48|68
+Ironclad|Taurus|2|3|392.9|495.2|760.6|149|146
+Pinnacle|Taurus|2|2|356.6|330.6|924.2|104|78
+Skyline GT-R R34|Taurus|0|3|294.3|391.9|1117.8|102|118
+MAX Revenge|Taurus|0|5|131.0|528.2|545.0|66|107
+Mighty Eight|Taurus|0|6|91.5|594.3|90.4|33|38
+Big Bertha|Taurus|6|0|590.4|0.0|53.6|29|0
+Draconian|Taurus|3|0|288.2|64.3|1190.5|90|40
+Jet Blade|Taurus|2|1|388.8|223.3|1303.0|117|80
+Potenza|Taurus|5|0|470.8|369.3|872.6|198|171
+Taurus|The Raven|4|1|459.0|384.5|840.1|157|168
+Lead Oxide|Taurus|0|4|226.1|569.8|837.7|98|154
+M A S H E E N|Taurus|6|0|599.3|113.6|23.5|15|14
+Block Buster|Taurus|6|0|581.6|131.3|191.8|48|45
+Fenrir|Taurus|5|1|518.0|173.2|293.0|78|106
+Katana|Taurus|5|0|510.7|29.6|505.5|66|6
+Prancer|Taurus|1|4|220.9|467.0|521.5|71|90
+Taurus|Titan Mk II|0|6|8.6|598.1|60.4|3|27

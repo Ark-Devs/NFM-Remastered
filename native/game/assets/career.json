@@ -1,0 +1,70 @@
+{
+  "_about": "Career layout. Stages in order (easiest first), bosses are the cars you win there (weakest cars first, strongest last), menace cars race on their classic stages for character. Edited by hand; names must match the game's stage and car names.",
+  "starters": ["Tornado Shark", "Formula 7", "Wow Caninaro", "La Vita Crab", "Nimi"],
+  "tours": [
+    {
+      "title": "Welcome to the Madness",
+      "blurb": "Learn to race. Learn to waste. This is the easy part.",
+      "stages": [
+        {"name": "Introductory Stage", "boss": ["Lancia Rally"], "style": "race", "coach": "Two checkpoints, three laps, one fixing hoop. Welcome to the madness, rookie."},
+        {"name": "Let the Dream Begin", "boss": ["Liquid Metal Prototype"], "style": "race", "coach": "Ramps everywhere. Land on your wheels and the power keeps coming."},
+        {"name": "Contrary To Popular Belief", "boss": ["BMW M1"], "style": "race", "coach": "Contrary to popular belief, sand is not your friend. Stay on the road."},
+        {"name": "Grapefruit Power", "boss": ["Mighty Eight"], "style": "race", "coach": "One lap. Flat out. Blink and it's over."},
+        {"name": "Arrested by the Man", "boss": ["Sword of Justice"], "style": "race", "coach": "The law is out tonight, and it hits hard. Don't let it catch you on the hairpins."},
+        {"name": "Dragrace Of Death", "boss": ["Atom"], "style": "race", "coach": "A drag race. With death in the name. What could go wrong?"},
+        {"name": "Do The Snake Dance", "boss": ["Lead Oxide"], "style": "waste", "coach": "Zig, zag, crunch. Learn the snake dance and they'll never hit you square."},
+        {"name": "The Stretch", "boss": ["Drifter X"], "style": "race", "coach": "One very long lap. Keep your power up and roll right on the big jump."},
+        {"name": "The Fast & The Furious + The Radical", "boss": ["Radical One"], "style": "race", "coach": "The Radical One is here, and it only knows one speed."},
+        {"name": "Twisted Revenge", "boss": ["MAX Revenge", "High Rider"], "style": "waste", "coach": "Ten laps? Forget the laps. Revenge is sweeter. Waste them all."}
+      ]
+    },
+    {
+      "title": "The King's Road",
+      "blurb": "Big air, tight corners, and something very large in your mirror.",
+      "stages": [
+        {"name": "Paninaro, Caninaro, Let's fly!", "boss": ["Hound"], "menace": ["EL KING"], "style": "race", "coach": "EL KING drives this one backwards, looking for you. Fly over him."},
+        {"name": "The 45 Degree Gun Run", "boss": ["Hakosuka"], "style": "race", "coach": "The Gun Run, tilted. Point your nose down the barrel and go."},
+        {"name": "Centrifugal Rush, Under Water?", "boss": ["Skyline GT-R R34"], "style": "waste", "coach": "Crossing roads, sharp turns and a hoop in the corner. Is this under water? Nobody knows."},
+        {"name": "He Is Coming For You Next", "boss": ["Kool Kat"], "menace": ["EL KING"], "style": "waste", "coach": "He is coming for you next. Yes, him. Fix up, then hit first."},
+        {"name": "Ghosts and Magic", "boss": ["Arbalest"], "menace": ["Mighty Eight"], "style": "race", "coach": "Fall behind and the leaders vanish like ghosts. Don't fall behind."},
+        {"name": "The Freeway", "boss": ["Quadra Turbo"], "style": "race", "coach": "Five long laps of open road. Pure speed, nowhere to hide."},
+        {"name": "Maximum Overfly", "boss": ["Ultimatum"], "menace": ["EL KING"], "style": "race", "coach": "Giant ramps, and the King wants revenge. Stay airborne, stay alive."},
+        {"name": "Majestic Duty", "boss": ["Banshee"], "menace": ["EL KING"], "style": "waste", "coach": "It's good to be the King. Tonight, be better than him."},
+        {"name": "The Stamina Run", "boss": ["Prancer"], "style": "race", "coach": "The ramps here give you nothing. Save your power, it has to last."},
+        {"name": "Skid", "boss": ["Ironclad", "Fenrir"], "style": "waste", "coach": "Nobody finishes Skid. Somebody just survives it."}
+      ]
+    },
+    {
+      "title": "Monsters & Machines",
+      "blurb": "M A S H E E N, DR Monstaa and their friends would like a word.",
+      "stages": [
+        {"name": "Rolling with the Big Boys", "boss": ["Cross"], "menace": ["M A S H E E N"], "style": "race", "coach": "Everyone reverses at the start. You'll see why."},
+        {"name": "When In Danger Just Chill Out", "boss": ["Vigilante"], "style": "waste", "coach": "Walls on both sides and danger everywhere. Just chill out. Then hit back."},
+        {"name": "Suddenly the King becomes Santa's Little Helper", "boss": ["Pinnacle"], "menace": ["M A S H E E N", "EL KING"], "style": "race", "coach": "M A S H E E N and EL KING are working together now. Hell is waiting."},
+        {"name": "Catch the Rabbit", "boss": ["Revon TTR"], "style": "race", "coach": "Twelve checkpoints in the dark. Somebody out there is the rabbit. Catch it."},
+        {"name": "Digger's Revenge", "boss": ["Jet Blade"], "menace": ["M A S H E E N"], "style": "waste", "coach": "Sandy U-turns, and a bulldozer that loves U-turns. Keep moving."},
+        {"name": "Vigor", "boss": ["The Raven"], "style": "waste", "coach": "Seven laps of pure vigour. Most of the field won't see lap three."},
+        {"name": "The Gun Run", "boss": ["Brute Force"], "menace": ["Radical One"], "style": "race", "coach": "One lap at night, two guns, and backward ramps at the end. Pray the Radical gets held up."},
+        {"name": "The Beach Arcade Dream", "boss": ["Draconian"], "menace": ["DR Monstaa"], "style": "race", "coach": "Halfpipes, sunshine and a monster. The doctor is in."},
+        {"name": "Twisted Magic", "boss": ["Taurus"], "style": "race", "coach": "Twisted roads under a magic sky. Watch the bends, not the stars."},
+        {"name": "Dances with Monsters", "boss": ["DR Monstaa", "M A S H E E N"], "style": "race", "coach": "Loops, twists and two monsters. Everyone gets angry near the end."}
+      ]
+    },
+    {
+      "title": "Beyond Madness",
+      "blurb": "The hardest stages ever built. Then the party.",
+      "stages": [
+        {"name": "The Phantom's Lair", "boss": ["Macabre"], "style": "race", "coach": "Six laps through the Phantom's home. Don't stop. Don't look back. Well, maybe once."},
+        {"name": "Riot Coliseum", "boss": ["Hot Pursuit"], "style": "waste", "coach": "A riot in an arena, with the police joining in. Last car standing wins."},
+        {"name": "Confusion In An Illusion", "boss": ["Get Lost"], "style": "race", "coach": "Sixteen checkpoints, hairpins everywhere. Get lost? That's the boss's name, not advice."},
+        {"name": "The Hall without a Wall", "boss": ["Rebel"], "style": "waste", "coach": "No walls. Nothing between you and a very long fall."},
+        {"name": "Survival of the Fittest", "boss": ["Dawgzilla", "Potenza"], "style": "waste", "coach": "Only the fittest leave this one in one piece. Be the fittest."},
+        {"name": "Ridin’ High", "boss": ["Katana"], "style": "waste", "coach": "Thirty-one checkpoints up in the sky. Ride high, land soft."},
+        {"name": "Space Walk", "boss": ["No Mercy"], "style": "race", "coach": "Low gravity, long jumps, no mercy. Find the road again after every jump."},
+        {"name": "The Test of Endurance", "boss": ["Big Bertha"], "style": "race", "coach": "One lap. Fourteen checkpoints. It's a long way round. Endure."},
+        {"name": "Four Dimensional Vertigo", "boss": ["Ragnarök", "Block Buster"], "menace": ["DR Monstaa", "M A S H E E N", "EL KING"], "style": "race", "coach": "A 4D object squashed into 3D, and the All Stars are racing. Follow the arrow. Good luck."},
+        {"name": "The Mad Party", "boss": ["EL KING", "BT One", "Titan Mk II"], "style": "waste", "coach": "No fixing hoop. No mercy. Everyone's invited. It's the Mad Party!"}
+      ]
+    }
+  ]
+}

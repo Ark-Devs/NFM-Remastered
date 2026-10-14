@@ -1,0 +1,10 @@
+{
+  "_about": "Stages that get a look of their own (scripts/stage_theme.gd), by stage name. Themes: underwater, space, mist, beach, coliseum, vertigo.",
+  "Centrifugal Rush, Under Water?": {"theme": "underwater"},
+  "Space Walk": {"theme": "space"},
+  "Ghosts and Magic": {"theme": "mist"},
+  "The Phantom's Lair": {"theme": "mist"},
+  "The Beach Arcade Dream": {"theme": "beach"},
+  "Riot Coliseum": {"theme": "coliseum"},
+  "Four Dimensional Vertigo": {"theme": "vertigo"}
+}
