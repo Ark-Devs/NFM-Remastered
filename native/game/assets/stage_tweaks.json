@@ -1,0 +1,4 @@
+{
+  "_about": "Changes to community stages, by stage name. checkpoints: the race ends at that checkpoint instead of the last one (the ones after it become plain road).",
+  "The Test of Endurance": {"checkpoints": 8}
+}

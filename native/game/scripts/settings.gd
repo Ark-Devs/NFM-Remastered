@@ -9,6 +9,8 @@ var stage := 0
 var opponents := 6
 var quality := "high"
 var render_scale := 0.0   # 3D resolution, 1.0 = the screen's own; 0 = Auto (set by GRAPHICS)
+var resolution := Vector2i.ZERO   # game resolution; (0, 0) = Native (the screen's own)
+var renderer := "auto"    # graphics API at launch: auto (Vulkan), d3d12 or vulkan (try DirectX 12 if the screen goes black)
 const RENDER_SCALES := [0.0, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
 var music := true
 var impact := "weighty"
@@ -87,6 +89,9 @@ func load_save() -> void:
 	opponents = int(d.get("opponents", opponents))
 	quality = str(d.get("quality", quality))
 	render_scale = minf(1.0, float(d.get("render_scale", render_scale)))
+	renderer = str(d.get("renderer", renderer))
+	var rs: String = str(d.get("resolution", ""))
+	resolution = Vector2i(int(rs.get_slice("x", 0)), int(rs.get_slice("x", 1))) if "x" in rs else Vector2i.ZERO
 	music = bool(d.get("music", music))
 	impact = str(d.get("impact", impact))
 	player_name = str(d.get("player_name", player_name))
@@ -115,4 +120,4 @@ func load_save() -> void:
 func save() -> void:
 	var f := FileAccess.open(PATH, FileAccess.WRITE)
 	if f:
-		f.store_string(JSON.stringify({car = car, stage = stage, opponents = opponents, quality = quality, render_scale = render_scale, music = music, impact = impact, player_name = player_name, volume = volume, fullscreen = fullscreen, camera = camera, map = map, fps = fps, voice = voice, stats_public = stats_public, keys = keys}))
+		f.store_string(JSON.stringify({car = car, stage = stage, opponents = opponents, quality = quality, render_scale = render_scale, renderer = renderer, resolution = "%dx%d" % [resolution.x, resolution.y] if resolution != Vector2i.ZERO else "", music = music, impact = impact, player_name = player_name, volume = volume, fullscreen = fullscreen, camera = camera, map = map, fps = fps, voice = voice, stats_public = stats_public, keys = keys}))

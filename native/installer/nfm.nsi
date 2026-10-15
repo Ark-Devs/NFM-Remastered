@@ -75,6 +75,8 @@ Section "Game" SecGame
 
   CreateDirectory "$SMPROGRAMS\${APP}"
   CreateShortcut "$SMPROGRAMS\${APP}\${APP}.lnk" "$INSTDIR\${EXE}" "" "$INSTDIR\nfm.ico"
+  ; for graphics drivers whose Vulkan is broken (e.g. old Boot Camp AMD drivers: a black screen)
+  CreateShortcut "$SMPROGRAMS\${APP}\${APP} (DirectX 12).lnk" "$INSTDIR\${EXE}" "--rendering-driver d3d12" "$INSTDIR\nfm.ico"
   CreateShortcut "$SMPROGRAMS\${APP}\Uninstall.lnk" "$INSTDIR\Uninstall.exe"
   CreateShortcut "$DESKTOP\${APP}.lnk" "$INSTDIR\${EXE}" "" "$INSTDIR\nfm.ico"
 
@@ -103,8 +105,10 @@ Section "Uninstall"
   Delete "$INSTDIR\OFL.txt"
   Delete "$INSTDIR\CREDITS.txt"
   Delete "$INSTDIR\Uninstall.exe"
+  Delete "$INSTDIR\override.cfg"
   RMDir "$INSTDIR"
   Delete "$SMPROGRAMS\${APP}\${APP}.lnk"
+  Delete "$SMPROGRAMS\${APP}\${APP} (DirectX 12).lnk"
   Delete "$SMPROGRAMS\${APP}\Uninstall.lnk"
   RMDir "$SMPROGRAMS\${APP}"
   Delete "$DESKTOP\${APP}.lnk"

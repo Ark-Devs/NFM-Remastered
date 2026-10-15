@@ -575,15 +575,17 @@ void Sim::rescue_stuck_ai() {
     }
     // a car driving around isn't stuck straight away: one that has barely
     // moved is moved on after 10 s, one that keeps driving without getting
-    // anywhere (lost, or circling a pit) after 30 s, or 60 s while it's
-    // hunting. One in a fight (hit or been hit in the last 15 s) is left be:
-    // on wasting stages that's what the AI is there for
+    // anywhere (lost, or circling a pit) after 25 s, or 60 s while it's
+    // hunting or fighting (on wasting stages that's what the AI is there for)
     if (std::hypot((double)(car->x - p.lx), (double)(car->z - p.lz)) > 1500) {
       p.lx = car->x; p.lz = car->z; p.moved = tick;
     }
     bool still = tick - p.moved >= 250 && tick - p.at >= 250;
+    // a fight only postpones it: a car brawling in a pit it can't climb out of
+    // (Survival of the Fittest) would otherwise circle there for ever
     bool fighting = tick - std::max(combat[i].lastDealtAt, combat[i].lastHitAt) < 375;
-    bool lost = !fighting && tick - p.at >= (controls[i]->attack != 0 ? 1500 : 750);
+    int wait = fighting || controls[i]->attack != 0 ? 1500 : 625;
+    bool lost = tick - p.at >= wait;
     if (!still && !lost) continue;
     int tgt = next_checkpoint_index(mad);
     rescue_to(i, tgt, std::min(2, p.tries++));

@@ -61,7 +61,7 @@
         {"name": "Survival of the Fittest", "boss": ["Dawgzilla", "Potenza"], "style": "waste", "coach": "Only the fittest leave this one in one piece. Be the fittest."},
         {"name": "Ridin’ High", "boss": ["Katana"], "style": "waste", "coach": "Thirty-one checkpoints up in the sky. Ride high, land soft."},
         {"name": "Space Walk", "boss": ["No Mercy"], "style": "race", "coach": "Low gravity, long jumps, no mercy. Find the road again after every jump."},
-        {"name": "The Test of Endurance", "boss": ["Big Bertha"], "style": "race", "coach": "One lap. Fourteen checkpoints. It's a long way round. Endure."},
+        {"name": "The Test of Endurance", "boss": ["Big Bertha"], "style": "race", "coach": "One lap, eight checkpoints, and a very long way between them. Endure."},
         {"name": "Four Dimensional Vertigo", "boss": ["Ragnarök", "Block Buster"], "menace": ["DR Monstaa", "M A S H E E N", "EL KING"], "style": "race", "coach": "A 4D object squashed into 3D, and the All Stars are racing. Follow the arrow. Good luck."},
         {"name": "The Mad Party", "boss": ["EL KING", "BT One", "Titan Mk II"], "style": "waste", "coach": "No fixing hoop. No mercy. Everyone's invited. It's the Mad Party!"}
       ]

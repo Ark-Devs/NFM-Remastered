@@ -213,6 +213,12 @@ static void initialize(void *, GDExtensionInitializationLevel level) {
     return Val();
   });
   R::method("set_focus", NONE, {{INT, "index"}}, [](NfmSim &s, std::vector<Val> &a) { s.sim.focus = (int)a[0].i; return Val(); });
+  // test: per car its AI route state: point it heads for, checkpoints cleared, last checkpoint, missed checkpoint flag
+  R::method("ai_debug", I32, {}, [](NfmSim &s, std::vector<Val> &) {
+    std::vector<int32_t> o;
+    for (int i = 0; i < s.sim.nplayers; i++) { Mad *m = s.sim.mads[i]; o.insert(o.end(), {m->point, m->clear, m->pcleared, m->missedcp}); }
+    return Val::Ints(o);
+  });
   // per car 8 floats: dealt %, taken from cars %, taken from world %, fixes, kills, killed by (-1 crash, -2 alive), died at tick, health left %
   R::method("combat_stats", F32, {}, [](NfmSim &s, std::vector<Val> &) {
     std::vector<float> o;

@@ -89,9 +89,11 @@ func _unhandled_input(e: InputEvent) -> void:
 	if e is InputEventKey:
 		if not e.pressed:
 			_stale.erase(e.physical_keycode)
-		elif Time.get_ticks_msec() < _guard_until or _stale.has(e.physical_keycode):
+		elif Time.get_ticks_msec() < _guard_until or (e.echo and _stale.has(e.physical_keycode)):
 			get_viewport().set_input_as_handled()
 			return
+		else:
+			_stale.erase(e.physical_keycode) # a fresh press: the key was let go
 	# rebinding: the next key pressed goes to the action being changed
 	if _capture.is_valid() and e is InputEventKey and e.pressed and not e.echo:
 		var cb := _capture
@@ -859,7 +861,24 @@ func options() -> void:
 	var rst := _rows(c, [
 		["GRAPHICS", func(): return s.quality.capitalize(), func(d): s.quality = qs[clampi(qs.find(s.quality) + d, 0, 3)]; s.save(); main.apply_quality()],
 		["RENDER SCALE", func(): return ("Auto  (%d%%)" % roundi(main.render_scale() * 100.0)) if s.render_scale <= 0.0 else "%d%%" % roundi(s.render_scale * 100.0), func(d): s.render_scale = Settings.RENDER_SCALES[clampi(Settings.RENDER_SCALES.find(s.render_scale) + d, 0, Settings.RENDER_SCALES.size() - 1)]; s.save(); main.apply_quality()],
-		["DISPLAY", func(): return "Fullscreen" if s.fullscreen else "Window", func(_d): s.fullscreen = not s.fullscreen; s.save(); main.apply_display()],
+		["RENDERER", func():
+			var now: String = RenderingServer.get_current_rendering_driver_name()
+			var pick: String = {"auto": "Auto", "d3d12": "DirectX 12", "vulkan": "Vulkan"}[s.renderer if s.renderer in ["auto", "d3d12", "vulkan"] else "auto"]
+			var running: String = {"d3d12": "DirectX 12", "vulkan": "Vulkan"}.get(now, now)
+			var want: String = "vulkan" if s.renderer == "auto" else s.renderer
+			return pick + ("" if want == now else "  (restart to use)") + ("  (" + running + ")" if s.renderer == "auto" else ""),
+			func(d): var opts := ["auto", "d3d12", "vulkan"]; main.set_renderer(opts[(maxi(0, opts.find(s.renderer)) + d + 3) % 3])],
+["RESOLUTION", func():
+			var r: Vector2i = s.resolution
+			if r == Vector2i.ZERO:
+				var n: Vector2i = main.screen_size()
+				return "Native  (%d × %d)" % [n.x, n.y]
+			return "%d × %d" % [r.x, r.y],
+			func(d):
+				var opts: Array = main.resolution_options()
+				s.resolution = opts[clampi(maxi(0, opts.find(s.resolution)) + d, 0, opts.size() - 1)]
+				s.save(); main.apply_display()],
+				["DISPLAY", func(): return "Fullscreen" if s.fullscreen else "Window", func(_d): s.fullscreen = not s.fullscreen; s.save(); main.apply_display()],
 		["CAMERA", func(): return RaceView.CAMERAS[clampi(s.camera, 0, RaceView.CAMERAS.size() - 1)].name, func(d): s.camera = (clampi(s.camera, 0, RaceView.CAMERAS.size() - 1) + d + RaceView.CAMERAS.size()) % RaceView.CAMERAS.size(); s.save()],
 		["IMPACT FEEL", func(): return "Weighty" if s.impact == "weighty" else "Classic NFM", func(_d): s.impact = "classic" if s.impact == "weighty" else "weighty"; s.save()],
 		["MUSIC", func(): return "On" if s.music else "Off", func(_d):
@@ -874,11 +893,11 @@ func options() -> void:
 		["RESET CAREER", func(): return "Press Enter twice" if not _confirm_reset else "Press Enter again to wipe", Callable()],
 	], Vector2(96, 200), 560)
 	var nl := UI.label("YOUR NAME (shown to friends online)", UI.body_bold(), 13, UI.DIM)
-	nl.position = Vector2(96, 772)
+	nl.position = Vector2(720, 204)
 	c.add_child(nl)
 	name_edit.text = s.player_name
 	name_edit.max_length = 16
-	name_edit.position = Vector2(96, 792)
+	name_edit.position = Vector2(720, 224)
 	name_edit.custom_minimum_size = Vector2(360, 40)
 	name_edit.add_theme_font_override("font", UI.cond())
 	name_edit.add_theme_font_size_override("font_size", 22)
@@ -1769,7 +1788,17 @@ func race_options(back: Callable) -> void:
 			if not s.music: main.audio.stop_music()
 			elif main.racing: main.audio.play_stage_music(main.assets.stages[main.race_opts.stage], main.sim.stage_soundtrack())],
 		["VOLUME", func(): return "%d%%" % int(round(s.volume * 100)), func(d): s.volume = clampf(s.volume + d * 0.1, 0.0, 1.0); s.save(); AudioServer.set_bus_volume_db(0, linear_to_db(maxf(0.0001, s.volume)))],
-		["DISPLAY", func(): return "Fullscreen" if s.fullscreen else "Window", func(_d): s.fullscreen = not s.fullscreen; s.save(); main.apply_display()],
+["RESOLUTION", func():
+			var r: Vector2i = s.resolution
+			if r == Vector2i.ZERO:
+				var n: Vector2i = main.screen_size()
+				return "Native  (%d × %d)" % [n.x, n.y]
+			return "%d × %d" % [r.x, r.y],
+			func(d):
+				var opts: Array = main.resolution_options()
+				s.resolution = opts[clampi(maxi(0, opts.find(s.resolution)) + d, 0, opts.size() - 1)]
+				s.save(); main.apply_display()],
+				["DISPLAY", func(): return "Fullscreen" if s.fullscreen else "Window", func(_d): s.fullscreen = not s.fullscreen; s.save(); main.apply_display()],
 	]
 	var rst := _rows(c, rows, Vector2(96, 200), 620)
 	_mount(c, func(code):
@@ -1788,8 +1817,14 @@ func outcome(r: Dictionary, has_killcam: bool, watch: Callable, skip: Callable) 
 	# no choices: the result shows for a moment, then the highlight plays
 	# (hold Enter there to skip it), then the results
 	main.hud.message(titles[r.kind], subs[r.kind], 2.6)
+	var race_view = main.view
 	await get_tree().create_timer(2.6).timeout
-	clear()
+	# the player may have quit to the menu (or restarted) meanwhile: then this
+	# race's highlight and results are gone, and so must this be. (Clearing
+	# here used to wipe the main menu, leaving only the turntable.)
+	if not main.racing or main.view != race_view:
+		return
+	if overlay: clear() # a pause menu over the end of the race
 	if has_killcam: watch.call()
 	else: skip.call()
 

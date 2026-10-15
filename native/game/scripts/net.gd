@@ -190,17 +190,21 @@ func _open(pkt: PackedByteArray) -> PackedByteArray:
 	return p.slice(0, p.size() - pad)
 
 
-func _send(to: int, type: int, data: Variant) -> void:
+## fast: controls. They go unreliable and outside the sequence numbers (seq 0):
+## each one repeats the last few ticks, so a lost packet costs nothing and a
+## late one never holds up the messages behind it.
+func _send(to: int, type: int, data: Variant, fast := false) -> void:
 	if peer == null:
 		return
-	send_seq += 1
 	var msg := PackedByteArray()
 	msg.resize(5)
-	msg.encode_u32(0, send_seq)
+	if not fast:
+		send_seq += 1
+	msg.encode_u32(0, 0 if fast else send_seq)
 	msg[4] = type
 	msg.append_array(var_to_bytes(data))
 	peer.set_target_peer(to)
-	peer.set_transfer_mode(MultiplayerPeer.TRANSFER_MODE_RELIABLE)
+	peer.set_transfer_mode(MultiplayerPeer.TRANSFER_MODE_UNRELIABLE if fast else MultiplayerPeer.TRANSFER_MODE_RELIABLE)
 	peer.put_packet(_seal(msg))
 
 
@@ -807,10 +811,13 @@ func _process(dt: float) -> void:
 		if plain.size() < 5:
 			continue # not from someone with the room key
 		var seq := plain.decode_u32(0)
-		if seq <= int(recv_seq.get(from, 0)):
-			continue # replayed
-		recv_seq[from] = seq
 		var type := plain[4]
+		if seq == 0 and type == INPUT:
+			pass # controls: unsequenced (a repeat is harmless, the store ignores it)
+		elif seq <= int(recv_seq.get(from, 0)):
+			continue # replayed
+		else:
+			recv_seq[from] = seq
 		var data = bytes_to_var(plain.slice(5))
 		_handle(from, type, data)
 	if is_host:
@@ -972,6 +979,7 @@ func _begin(opts: Dictionary) -> void:
 	hashes.clear()
 	next_tick = 1
 	sent_tick = delay
+	_my_recent = []
 	send_clock = 0.0
 	desync_reported = false
 	host_gone = false
@@ -993,7 +1001,7 @@ func _pick_delay() -> int:
 	var worst := 0
 	for id in pings: worst = maxi(worst, int(pings[id]))
 	# one way to the farthest player plus a margin for jitter, in 40 ms ticks
-	return clampi(int(ceil((worst * 0.6 + 30.0) / 40.0)), 2, 10)
+	return clampi(int(ceil((worst * 0.6 + 50.0) / 40.0)), 3, 10)
 
 
 # ---------------------------------------------------------------- mesh
@@ -1037,42 +1045,53 @@ func _poll_mesh() -> void:
 		if plain.size() < 5:
 			continue
 		var seq := plain.decode_u32(0)
-		if seq <= int(mesh_seq.get(from, 0)):
+		if seq == 0 and plain[4] == INPUT:
+			pass # controls: unsequenced, see _send
+		elif seq <= int(mesh_seq.get(from, 0)):
 			continue
-		mesh_seq[from] = seq
+		else:
+			mesh_seq[from] = seq
 		direct_count += 1
 		_race_msg(plain[4], bytes_to_var(plain.slice(5)))
 
 
 ## Send a race message to every other player: direct, and through the host.
 func _race_send(type: int, data: Variant) -> void:
+	var fast := type == INPUT
 	if mesh:
-		send_seq += 1
 		var msg := PackedByteArray()
 		msg.resize(5)
-		msg.encode_u32(0, send_seq)
+		if not fast:
+			send_seq += 1
+		msg.encode_u32(0, 0 if fast else send_seq)
 		msg[4] = type
 		msg.append_array(var_to_bytes(data))
 		mesh.set_target_peer(0)
-		mesh.set_transfer_mode(MultiplayerPeer.TRANSFER_MODE_RELIABLE)
+		mesh.set_transfer_mode(MultiplayerPeer.TRANSFER_MODE_UNRELIABLE if fast else MultiplayerPeer.TRANSFER_MODE_RELIABLE)
 		mesh.put_packet(_seal(msg))
 	if host_gone or peer == null:
 		return
 	if is_host:
 		for id in players:
-			if id != 1: _send(id, type, data)
+			if id != 1: _send(id, type, data, fast)
 	else:
-		_send(1, type, data)
+		_send(1, type, data, fast)
 
 
 ## A race message, however it arrived. The host passes on what clients send.
 func _race_msg(type: int, data, from := 0) -> void:
 	if is_host and from > 1:
 		for id in players:
-			if id != 1 and id != from: _send(id, type, data)
+			if id != 1 and id != from: _send(id, type, data, type == INPUT)
 	match type:
 		INPUT:
-			_store(int(data[0]), int(data[1]), int(data[2]))
+			# [slot, last tick, controls for the ticks up to it] (older PCs: one tick)
+			if data[2] is PackedInt32Array:
+				var arr: PackedInt32Array = data[2]
+				for k in arr.size():
+					_store(int(data[0]), int(data[1]) - arr.size() + 1 + k, arr[k])
+			else:
+				_store(int(data[0]), int(data[1]), int(data[2]))
 		GONE:
 			_gone_report(data)
 
@@ -1101,7 +1120,24 @@ func pump(dt: float) -> void:
 		sent_tick += 1
 		var bits: int = main.local_input()
 		_store(my_grid, sent_tick, bits)
-		_race_send(INPUT, [my_grid, sent_tick, bits])
+		_my_recent.append(bits)
+		if _my_recent.size() > RESEND: _my_recent.remove_at(0)
+		_race_send(INPUT, [my_grid, sent_tick, PackedInt32Array(_my_recent)])
+
+
+## How many ticks of our own controls ride along in every controls packet.
+const RESEND := 8
+var _my_recent: Array = []
+
+
+## How many ticks in a row, from the next one, can be raced right now.
+func ready_ticks() -> int:
+	var n := 0
+	var need := humans_mask
+	for s in gone_slots: need &= ~(1 << s)
+	while n < 40 and (int(have.get(next_tick + n, 0)) & need) == need:
+		n += 1
+	return n
 
 
 ## Every player still in the race has sent their controls for the next tick.

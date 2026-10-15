@@ -67,6 +67,7 @@ func _ready() -> void:
 			if a.begins_with("--stage="):
 				stage = int(a.substr(8))
 		start_race({stage = stage, car = 14, opponents = 6})
+		if _arg(args, "--watch=") != "": view.watch = int(_arg(args, "--watch=")) # test: follow an AI car
 	elif _arg(args, "--careerrace=") != "":
 		# test: a career stage, --careerrace=TOUR,STAGE (both from 0)
 		var at := _arg(args, "--careerrace=").split(",")
@@ -616,13 +617,21 @@ func _process(delta: float) -> void:
 			hit_stop -= dt
 			scale = 0.25
 		if net.active:
-			# lockstep: step only when the host's frame for the tick is here
+			# lockstep on a steady 25 Hz clock, like offline: one tick per 40 ms
+			# once every player's controls for it are in. Short of controls the
+			# race holds (no jump); with a full buffer of controls (the others
+			# are ahead) it runs a little faster until it has caught up, instead
+			# of leaping several ticks in one frame.
 			net.pump(dt)
+			acc += dt * (1.15 if net.ready_ticks() >= net.delay else 1.0)
 			var steps := 0
-			while steps < 4 and net.can_step():
+			while acc >= TICK and steps < 3 and net.can_step():
 				_step(net.inputs_for_tick())
+				acc -= TICK
 				steps += 1
-			acc = 0.0 if steps > 0 else minf(acc + dt, TICK)
+			if not net.can_step():
+				acc = minf(acc, TICK)
+			if "--netlog" in OS.get_cmdline_user_args(): _net_log(steps)
 		else:
 			acc += dt * scale
 			var steps := 0
@@ -644,6 +653,17 @@ func _process(delta: float) -> void:
 		_race_event(11, PackedFloat32Array([95, 740, -650, 30, 0, 1, 1, 0, 80, 0]))
 		_coach_at = 0
 		_remark("test", "Did you see that?! Unbelievable!")
+	if int(sim.race_info()[0]) == 300 and _arg(OS.get_cmdline_user_args(), "--quitmidresult=") != "":
+		# test: quit to the menu while the race result is up; the menu must survive
+		front.outcome({kind = 1, who = 0, position = 1}, false, func(): pass, func(): pass)
+		await get_tree().create_timer(0.5).timeout
+		end_race()
+		front.main_menu()
+		await get_tree().create_timer(3.5).timeout
+		await RenderingServer.frame_post_draw
+		get_viewport().get_texture().get_image().save_png(_arg(OS.get_cmdline_user_args(), "--quitmidresult="))
+		get_tree().quit()
+		return
 	if int(sim.race_info()[0]) == 300 and _arg(OS.get_cmdline_user_args(), "--outcomeshot=") != "":
 		# test: the post-race result card, saved to a picture
 		front.outcome({kind = 3, who = 0, position = 1}, true, func(): pass, func(): pass)
@@ -659,6 +679,8 @@ func _process(delta: float) -> void:
 				break
 	if _test_damage >= 0.0 and int(sim.race_info()[1]) == 0:
 		sim.debug_set_damage(view.focus, _test_damage) # test: --damage=0.93
+	if hud == null or view == null:
+		return # the race ended during this frame
 	if hud.deathmatch:
 		if hud.fixes_left >= 0:
 			var cs: PackedFloat32Array = sim.combat_stats()
@@ -852,6 +874,20 @@ func _race_event(type: int, v: PackedFloat32Array) -> void:
 func _own_finish(pos: int) -> void:
 	if not race_decided:
 		hud.message("YOU WON" if pos == 1 else UI.ordinal(pos).to_upper() + " PLACE", "The results show when the race is over", 3.0)
+
+
+## Test: once a second, how the online race kept time (ticks raced, frames it
+## had to wait for controls, most ticks in one frame, controls in hand).
+var _nl := {t = 0, ticks = 0, waits = 0, most = 0}
+
+
+func _net_log(steps: int) -> void:
+	_nl.ticks += steps
+	if steps == 0 and not net.can_step(): _nl.waits += 1
+	_nl.most = maxi(_nl.most, steps)
+	if Time.get_ticks_msec() - _nl.t >= 1000:
+		print("netlog tick %d  ticks/s %d  waiting frames %d  most/frame %d  ready %d  delay %d  direct %d" % [net.next_tick, _nl.ticks, _nl.waits, _nl.most, net.ready_ticks(), net.delay, net.direct_count])
+		_nl = {t = Time.get_ticks_msec(), ticks = 0, waits = 0, most = 0}
 
 
 ## Coach Insano: one remark of each kind per race, and never two in a row
@@ -1118,7 +1154,60 @@ func _maybe_shot() -> void:
 ## The 3D resolution in use: the player's choice, or Auto from GRAPHICS.
 func render_scale() -> float:
 	if settings.render_scale > 0.0: return settings.render_scale
-	return {"low": 0.7, "medium": 0.85}.get(settings.quality, 1.0)
+	var base: float = {"low": 0.7, "medium": 0.85}.get(settings.quality, 1.0)
+	# very sharp screens (a 16" MacBook is 3072x1920, nearly 3x 1080p) would
+	# cost the GPU a fortune at full size: Auto keeps the 3D image to about a
+	# 1440p screen's worth of pixels and lets FSR fill the rest
+	var r := game_resolution()
+	var px := float(r.x * r.y)
+	if px > AUTO_MAX_PIXELS:
+		base = minf(base, maxf(0.5, sqrt(AUTO_MAX_PIXELS / px)))
+	return snappedf(base, 0.01)
+
+
+const AUTO_MAX_PIXELS := 2560.0 * 1440.0
+## The RESOLUTION choices; anything bigger than the screen is left out.
+const RESOLUTIONS := [Vector2i(3840, 2160), Vector2i(2560, 1600), Vector2i(2560, 1440), Vector2i(1920, 1200), Vector2i(1920, 1080),
+	Vector2i(1680, 1050), Vector2i(1600, 900), Vector2i(1440, 900), Vector2i(1366, 768), Vector2i(1280, 720)]
+
+
+## The screen's own size (the window's screen).
+func screen_size() -> Vector2i:
+	return DisplayServer.screen_get_size(DisplayServer.window_get_current_screen())
+
+
+## The resolutions on offer: Native (0,0) first, then those that fit the screen.
+func resolution_options() -> Array:
+	var out := [Vector2i.ZERO]
+	var scr := screen_size()
+	for r in RESOLUTIONS:
+		if r.x <= scr.x and r.y <= scr.y and r != scr: out.append(r)
+	return out
+
+
+## The resolution the game draws its 3D at: the chosen one, or the window's own.
+func game_resolution() -> Vector2i:
+	var win := DisplayServer.window_get_size()
+	if settings.resolution == Vector2i.ZERO: return win
+	if settings.fullscreen: return Vector2i(mini(settings.resolution.x, win.x), mini(settings.resolution.y, win.y))
+	return win
+
+
+## Which graphics API the game starts with (Options, takes effect on restart):
+## written to override.cfg beside the game, which Godot reads at launch.
+func set_renderer(r: String) -> void:
+	settings.renderer = r
+	settings.save()
+	if OS.has_feature("editor"): return
+	var path := OS.get_executable_path().get_base_dir().path_join("override.cfg")
+	if r == "auto":
+		DirAccess.remove_absolute(path)
+		return
+	var f := FileAccess.open(path, FileAccess.WRITE)
+	if f: f.store_string('[rendering]
+
+rendering_device/driver.windows="%s"
+' % r)
 
 
 func apply_quality() -> void:
@@ -1128,7 +1217,11 @@ func apply_quality() -> void:
 		"high": get_viewport().msaa_3d = Viewport.MSAA_4X
 		"ultra": get_viewport().msaa_3d = Viewport.MSAA_8X
 	# RENDER SCALE: below 100% upscales with FSR (sharpened, so it stays crisp)
-	var sc := render_scale()
+	# fullscreen at a lower RESOLUTION: the screen keeps its own mode (menus stay
+	# sharp) and the 3D is drawn at that resolution, then scaled up
+	var win := DisplayServer.window_get_size()
+	var res_k := 1.0 if win.x <= 0 else clampf(float(game_resolution().x) / float(win.x), 0.25, 1.0)
+	var sc := clampf(render_scale() * res_k, 0.25, 1.0)
 	get_viewport().scaling_3d_scale = sc
 	get_viewport().scaling_3d_mode = Viewport.SCALING_3D_MODE_FSR if sc < 0.999 else Viewport.SCALING_3D_MODE_BILINEAR
 	get_viewport().fsr_sharpness = 0.2
@@ -1148,6 +1241,14 @@ func apply_display() -> void:
 		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
 	else:
 		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED)
+		# a window of the chosen RESOLUTION (Native: a large window), centred
+		var scr := screen_size()
+		var want: Vector2i = settings.resolution if settings.resolution != Vector2i.ZERO else Vector2i(scr.x * 4 / 5, scr.y * 4 / 5)
+		want = Vector2i(mini(want.x, scr.x), mini(want.y, scr.y))
+		DisplayServer.window_set_size(want)
+		var at := DisplayServer.screen_get_position(DisplayServer.window_get_current_screen())
+		DisplayServer.window_set_position(at + (scr - want) / 2)
+	apply_quality.call_deferred() # Auto render scale depends on the window size
 
 
 ## Grid slots of this race's rivals that the player wrecked themselves.

@@ -60,9 +60,35 @@ func load_all(sim: NfmSim) -> void:
 		if t == "":
 			t = f.get_basename()
 		t = RENAMED.get(f.get_basename(), t)
+		data = _tweak(t, data)
 		stages.append({id = -1, file = "mystages/" + f, name = t, custom = true, solo = t in SOLO_STAGES, data = data})
 
 
+## Community stages adjusted for the game (assets/stage_tweaks.json). Every PC
+## loads the same files, so online races stay in step.
+func _tweak(stage_name: String, data: PackedByteArray) -> PackedByteArray:
+	if _tweaks == null:
+		_tweaks = {}
+		if FileAccess.file_exists("res://assets/stage_tweaks.json"):
+			var d = JSON.parse_string(FileAccess.get_file_as_string("res://assets/stage_tweaks.json"))
+			if d is Dictionary: _tweaks = d
+	var tw = _tweaks.get(stage_name)
+	if not tw is Dictionary or not tw.has("checkpoints"):
+		return data
+	# end the race at checkpoint N: later checkpoints become plain road pieces
+	var keep := int(tw.checkpoints)
+	var seen := 0
+	var lines := data.get_string_from_utf8().split("
+")
+	for i in lines.size():
+		if lines[i].begins_with("chk("):
+			seen += 1
+			if seen > keep: lines[i] = "set(" + lines[i].substr(4)
+	return "
+".join(lines).to_utf8_buffer()
+
+
+var _tweaks = null
 var _models := {}
 
 
