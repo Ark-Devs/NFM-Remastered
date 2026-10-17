@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;1,700;1,800&family=Barlow:wght@500;600&display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #050607; }
+      :root { --accent: #ff5a1f; --ink: #f3f2ef; --display: 'Barlow Condensed', 'Arial Narrow', sans-serif; --body: 'Barlow', sans-serif; }
+      #root { position: relative; width: 1080px; height: 1920px; background: #050607; color: var(--ink); font-family: var(--body); overflow: hidden; }
+      .scene { position: absolute; inset: 0; overflow: hidden; background: #050607; }
+      .blur { position: absolute; inset: -80px; width: 1240px; height: 2080px; object-fit: cover; filter: blur(40px) brightness(.45); }
+      .frame { position: absolute; left: 0; top: 560px; width: 1080px; height: 608px; overflow: hidden; box-shadow: 0 0 0 4px rgba(255,255,255,.08), 0 30px 80px rgba(0,0,0,.6); }
+      .frame img, .frame video, video.frame { width: 1080px; height: 608px; object-fit: cover; transform-origin: 0% 100%; display: block; }
+      .display { font-family: var(--display); font-style: italic; font-weight: 800; letter-spacing: -0.01em; line-height: .9; text-transform: uppercase; }
+      .accent { color: var(--accent); }
+      #hook { display: grid; place-items: center; }
+      #hook .line { font-size: 190px; text-align: center; padding: 0 60px; }
+      #hook .cursor { display: inline-block; width: 16px; height: 150px; background: var(--accent); margin-left: 12px; vertical-align: -14px; }
+      .cap { position: absolute; left: 60px; font-family: var(--display); font-style: italic; font-weight: 700; text-transform: uppercase; background: rgba(5,6,7,.78); border-left: 10px solid var(--accent); padding: 16px 34px 16px 28px; }
+      #cap2 { top: 1280px; font-size: 76px; }
+      #cap3a { top: 1260px; font-size: 190px; }
+      #cap3b { top: 1500px; font-size: 76px; }
+      #cap4 { top: 1280px; font-size: 76px; }
+      #cap5 { top: 1280px; font-size: 76px; }
+      #outro { display: grid; place-items: center; background: radial-gradient(ellipse at 50% 45%, #15161a 0%, #050607 72%); }
+      #outro .stack { text-align: center; }
+      #outro .l1 { font-size: 200px; line-height: .86; }
+      #outro .l2 { font-family: var(--display); font-weight: 600; font-size: 46px; letter-spacing: .6em; color: var(--accent); margin-top: 30px; padding-left: .6em; }
+      #outro .tag { font-size: 120px; margin-top: 110px; }
+      #outro .modes { font-family: var(--body); font-weight: 600; font-size: 36px; letter-spacing: .26em; color: rgba(243,242,239,.78); margin-top: 44px; }
+      #flash { position: absolute; inset: 0; background: #fff; opacity: 0; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="21" data-width="1080" data-height="1920">
+
+      <div id="hook" class="scene clip" data-start="0" data-duration="2.7" data-track-index="0">
+        <div class="line display"><span id="typed"></span><span class="cursor"></span></div>
+      </div>
+
+      <div id="s2" class="scene clip" data-start="2.7" data-duration="3.5" data-track-index="0">
+        <img class="blur" src="assets/img/01-menu.png" />
+        <div class="frame"><img id="img2" src="assets/img/01-menu.png" /></div>
+        <div id="cap2" class="cap">Ported from the original Java</div>
+      </div>
+
+      <div id="s3" class="scene clip" data-start="6.2" data-duration="4.0" data-track-index="0">
+        <img class="blur" src="assets/img/02-cars.png" />
+        <div class="frame"><img id="img3" src="assets/img/02-cars.png" /></div>
+        <div id="cap3a" class="cap">52 cars</div>
+        <div id="cap3b" class="cap">+ community cars</div>
+      </div>
+
+      <div id="s4" class="scene clip" data-start="10.2" data-duration="3.2" data-track-index="0">
+        <img class="blur" src="assets/img/03-stages.png" />
+        <div class="frame"><img id="img4" src="assets/img/03-stages.png" /></div>
+        <div id="cap4" class="cap">Pick a stage. Pick a fight.</div>
+      </div>
+
+      <div id="s5bg" class="scene clip" data-start="13.4" data-duration="4.2" data-track-index="0">
+        <img class="blur" src="assets/img/race-last.jpg" />
+        <div class="frame"><img id="img5" src="assets/img/race-last.jpg" /></div>
+        <div id="cap5" class="cap">Go. Crash. Repeat.</div>
+      </div>
+      <video id="vid5" class="frame" src="assets/race.mp4" data-start="13.4" data-duration="2.27" data-track-index="1" muted playsinline></video>
+
+      <div id="outro" class="scene clip" data-start="17.6" data-duration="3.4" data-track-index="0">
+        <div class="stack">
+          <div class="l1 display">Need for<br/>Madness</div>
+          <div class="l2">REMASTERED</div>
+          <div class="tag display accent" id="tag">Rebuilt.<br/>Still mad.</div>
+          <div class="modes" id="modes">CAREER · FREE PLAY · ONLINE</div>
+        </div>
+      </div>
+
+      <div id="flash"></div>
+
+      <audio id="music" src="assets/music/bed.mp3" data-start="0" data-duration="21" data-track-index="5" data-volume="0.55" data-fade-out="1.5"></audio>
+      <audio id="hit1" src="assets/sfx/hit.ogg" data-start="2.7" data-duration="0.5" data-track-index="6" data-volume="0.9"></audio>
+      <audio id="hit2" src="assets/sfx/hit.ogg" data-start="17.6" data-duration="0.5" data-track-index="7" data-volume="0.9"></audio>
+      <audio id="tk1" src="assets/sfx/tick.ogg" data-start="6.7" data-duration="0.3" data-track-index="8" data-volume="0.8"></audio>
+      <audio id="tk2" src="assets/sfx/tick.ogg" data-start="7.8" data-duration="0.3" data-track-index="9" data-volume="0.8"></audio>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      const text = "Remember Need for Madness?";
+      const typed = document.getElementById("typed");
+      const st = { p: 0 };
+      tl.to(st, { p: text.length, duration: 1.3, ease: "none", onUpdate: () => { typed.textContent = text.slice(0, Math.round(st.p)); } }, 0.2);
+      tl.set(typed, { textContent: text }, 1.6);
+      tl.fromTo(".cursor", { opacity: 1 }, { opacity: 0, duration: 0.12, repeat: 3, yoyo: true }, 1.5);
+
+      tl.fromTo("#img2", { scale: 1.1 }, { scale: 1.0, duration: 3.5, ease: "power2.out" }, 2.7);
+      tl.fromTo("#cap2", { x: -80, opacity: 0 }, { x: 0, opacity: 1, duration: 0.4, ease: "power3.out" }, 4.2);
+
+      tl.fromTo("#img3", { scale: 1.0 }, { scale: 1.04, duration: 4.0, ease: "none" }, 6.2);
+      tl.fromTo("#cap3a", { x: -120, opacity: 0 }, { x: 0, opacity: 1, duration: 0.35, ease: "power3.out" }, 6.7);
+      tl.fromTo("#cap3b", { x: -120, opacity: 0 }, { x: 0, opacity: 1, duration: 0.35, ease: "power3.out" }, 7.8);
+
+      tl.fromTo("#img4", { scale: 1.0 }, { scale: 1.05, duration: 3.2, ease: "power1.inOut" }, 10.2);
+      tl.fromTo("#cap4", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, ease: "power3.out" }, 10.8);
+
+      tl.set("#img5", { opacity: 0 }, 13.4);
+      tl.set("#img5", { opacity: 1 }, 15.67);
+      tl.fromTo("#img5", { scale: 1.0 }, { scale: 1.04, duration: 1.93, ease: "power1.out" }, 15.67);
+      tl.fromTo("#cap5", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, ease: "power3.out" }, 14.0);
+
+      tl.set("#flash", { opacity: 0 }, 0);
+      tl.fromTo("#flash", { opacity: 0.9 }, { opacity: 0, duration: 0.35, ease: "power2.out", immediateRender: false }, 17.6);
+
+      tl.fromTo(".l1", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.45, ease: "power3.out" }, 17.7);
+      tl.fromTo(".l2", { opacity: 0 }, { opacity: 1, duration: 0.4 }, 18.1);
+      tl.fromTo("#tag", { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, ease: "power3.out" }, 18.8);
+      tl.fromTo("#modes", { opacity: 0 }, { opacity: 1, duration: 0.4 }, 19.5);
+
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>
